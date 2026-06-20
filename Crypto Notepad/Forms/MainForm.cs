@@ -308,81 +308,7 @@ namespace Crypto_Notepad
             }
         }
 
-        private async Task CheckForUpdates(bool autoCheck)
-        {
-            try
-            {
-                PublicVar.messageBoxCenterParent = true;
-                WebClient client = new WebClient();
-                Uri updateUrl = new Uri("https://raw.githubusercontent.com/Crypto-Notepad/Crypto-Notepad/master/version.txt", UriKind.Absolute);
-                Stream stream = await client.OpenReadTaskAsync(updateUrl);
-                StreamReader reader = new StreamReader(stream);
-                string content = await reader.ReadToEndAsync();
-                string version = Application.ProductVersion;
-                string exePath = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location) + @"\";
-                int appVersion = Convert.ToInt32(version.Replace(".", "")), serverVersion = Convert.ToInt32(content.Replace(".", ""));
-                if (serverVersion > appVersion)
-                {
-                    PublicVar.messageBoxCenterParent = true;
-                    if (statusPanel.Visible)
-                    {
-                        StatusPanelMessage("update-needed");
-                        return;
-                    }
-                    else
-                    {
-                        using (new CenterWinDialog(this))
-                        {
-                            DialogResult res = MessageBox.Show(this, "发现新版本。是否立即安装？", PublicVar.appName,
-                                MessageBoxButtons.YesNo, MessageBoxIcon.Information);
-                            if (res == DialogResult.Yes)
-                            {
-                                File.WriteAllBytes(exePath + "Updater.exe", Resources.Updater);
-                                var pr = new Process();
-                                pr.StartInfo.FileName = exePath + "Updater.exe";
-                                pr.StartInfo.Arguments = "/u";
-                                pr.Start();
-                                Application.Exit();
-                            }
-                        }
-                    }
-                }
 
-                if (serverVersion <= appVersion && autoCheck)
-                {
-                    using (new CenterWinDialog(this))
-                    {
-                        if (statusPanel.Visible)
-                        {
-                            StatusPanelMessage("update-missing");
-                        }
-                        else
-                        {
-                            MessageBox.Show(this, "Crypto Notepad 已是最新版本。", PublicVar.appName, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        }
-                    }
-                }
-            }
-            catch
-            {
-                if (autoCheck)
-                {
-                    using (new CenterWinDialog(this))
-                    {
-                        if (statusPanel.Visible)
-                        {
-                            StatusPanelMessage("update-failed");
-                        }
-                        else
-                        {
-                            MessageBox.Show(this, "检查更新失败：\n网络连接丢失或服务器繁忙。", PublicVar.appName,
-                                MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        }
-                    }
-
-                }
-            }
-        }
 
         private async void StatusPanelMessage(string type)
         {
@@ -694,7 +620,7 @@ namespace Crypto_Notepad
                 settingsMainMenu.Image = Resources.gear;
                 pasteBoardMainMenu.Image = Resources.clipboard_text;
                 documentationMainMenu.Image = Resources.document_text;
-                checkForUpdatesMainMenu.Image = Resources.upload_cloud;
+
                 aboutMainMenu.Image = Resources.information;
                 alwaysOnTopMainMenu.Image = Resources.applications_blue;
                 saveCloseFileMainMenu.Image = Resources.disk_minus;
@@ -744,7 +670,7 @@ namespace Crypto_Notepad
                 lockMainMenu.ShortcutKeys = Keys.Control | Keys.L;
                 settingsMainMenu.ShortcutKeys = Keys.Control | Keys.Shift | Keys.T;
                 documentationMainMenu.ShortcutKeys = Keys.Control | Keys.F1;
-                checkForUpdatesMainMenu.ShortcutKeys = Keys.Control | Keys.U;
+
                 aboutMainMenu.ShortcutKeys = Keys.Control | Keys.Shift | Keys.A;
             }
             else
@@ -776,7 +702,7 @@ namespace Crypto_Notepad
                 lockMainMenu.ShortcutKeys = Keys.None;
                 settingsMainMenu.ShortcutKeys = Keys.None;
                 documentationMainMenu.ShortcutKeys = Keys.None;
-                checkForUpdatesMainMenu.ShortcutKeys = Keys.None;
+
                 aboutMainMenu.ShortcutKeys = Keys.None;
             }
         }
@@ -1060,11 +986,7 @@ namespace Crypto_Notepad
             {
                 ContextMenuEncryptReplace();
             }
-            if (settings.autoCheckUpdate)
-            {
-                await CheckForUpdates(false);
-            }
-
+            
         }
 
         private void RichTextBox_SelectionChanged(object sender, EventArgs e)
@@ -1759,10 +1681,7 @@ namespace Crypto_Notepad
             Process.Start("https://github.com/Crypto-Notepad/Crypto-Notepad/wiki/Documentation");
         }
 
-        private async void CheckForUpdatesMainMenu_Click(object sender, EventArgs e)
-        {
-            await CheckForUpdates(true);
-        }
+
 
         private void AboutMainMenu_Click(object sender, EventArgs e)
         {

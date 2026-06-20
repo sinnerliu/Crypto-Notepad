@@ -71,7 +71,7 @@ namespace Crypto_Notepad
             this.pasteBoardMainMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.helpMainMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.documentationMainMenu = new System.Windows.Forms.ToolStripMenuItem();
-            this.checkForUpdatesMainMenu = new System.Windows.Forms.ToolStripMenuItem();
+
             this.mainMenuSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.aboutMainMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.debugMainMenu = new System.Windows.Forms.ToolStripMenuItem();
@@ -543,15 +543,7 @@ namespace Crypto_Notepad
             this.documentationMainMenu.Size = new System.Drawing.Size(222, 22);
             this.documentationMainMenu.Text = "帮助文档";
             this.documentationMainMenu.Click += new System.EventHandler(this.DocumentationMainMenu_Click);
-            // 
-            // checkForUpdatesMainMenu
-            // 
-            this.checkForUpdatesMainMenu.Name = "checkForUpdatesMainMenu";
-            this.checkForUpdatesMainMenu.RightToLeftAutoMirrorImage = true;
-            this.checkForUpdatesMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.U)));
-            this.checkForUpdatesMainMenu.Size = new System.Drawing.Size(222, 22);
-            this.checkForUpdatesMainMenu.Text = "检查更新...";
-            this.checkForUpdatesMainMenu.Click += new System.EventHandler(this.CheckForUpdatesMainMenu_Click);
+
             // 
             // mainMenuSeparator8
             // 
@@ -1482,7 +1474,7 @@ namespace Crypto_Notepad
         protected internal System.Windows.Forms.ToolStripMenuItem clearContextMenu;
         protected internal System.Windows.Forms.ToolStripSeparator mainMenuSeparator1;
         protected internal System.Windows.Forms.ToolStripMenuItem changePasswordMainMenu;
-        protected internal System.Windows.Forms.ToolStripMenuItem checkForUpdatesMainMenu;
+
         protected internal System.Windows.Forms.ToolStripMenuItem documentationMainMenu;
         protected internal System.Windows.Forms.ToolStripMenuItem settingsMainMenu;
         protected internal System.Windows.Forms.ToolStripSeparator mainMenuSeparator5;
