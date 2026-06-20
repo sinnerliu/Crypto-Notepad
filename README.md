@@ -40,11 +40,12 @@ Notepad-like simple text editor for Windows, where files are saved and loaded en
 choco install crypto-notepad
 ```
 ### Manual instalition:
-- [Download](https://github.com/Crypto-Notepad/Crypto-Notepad/releases/latest) latest release.
+- [Download](https://github.com/sinnerliu/Crypto-Notepad/releases/latest) latest release.
 - Unzip **Crypto.Notepad.zip** archive to any directory
 - Run **Crypto Notepad.exe**
 
 ## System requirements
+
 * Windows 7 SP1 and higher
 * .NET Framework 4.7.2 and higher (due to High DPI scaling upgrade)
 
