@@ -19,6 +19,8 @@ Notepad-like simple text editor for Windows, where files are saved and loaded en
 ## Features
 
 * All the features of the default Windows Notepad
+* Full Simplified Chinese localization (完整的简体中文汉化支持)
+* High DPI scaling adaptation (高 DPI 自动缩放自适应适配，升级至 PerMonitorV2)
 * Associate own file type with application
 * Integrate with windows context menu
 * Сustomizable encryption options
@@ -44,7 +46,7 @@ choco install crypto-notepad
 
 ## System requirements
 * Windows 7 SP1 and higher
-* .NET Framework 4.6.1 and higher
+* .NET Framework 4.7.2 and higher (due to High DPI scaling upgrade)
 
 ## Build
 App was created in Visual Studio Community, you can run the *.sln file and simply build a project
