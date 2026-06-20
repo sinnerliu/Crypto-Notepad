@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Crypto_Notepad.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
@@ -39,7 +39,7 @@
       <Value Profile="(Default)">0, 0</Value>
     </Setting>
     <Setting Name="windowSize" Provider="PortableSettingsProvider" Type="System.Drawing.Size" Scope="User">
-      <Value Profile="(Default)">645, 460</Value>
+      <Value Profile="(Default)">1050, 750</Value>
     </Setting>
     <Setting Name="windowState" Provider="PortableSettingsProvider" Type="System.Windows.Forms.FormWindowState" Scope="User">
       <Value Profile="(Default)">Normal</Value>
