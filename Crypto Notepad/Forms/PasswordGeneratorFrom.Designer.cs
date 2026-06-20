@@ -90,7 +90,7 @@ namespace Crypto_Notepad
             this.lowercaseCheckBox.AutoSize = true;
             this.lowercaseCheckBox.Checked = true;
             this.lowercaseCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.lowercaseCheckBox.Location = new System.Drawing.Point(55, 21);
+            this.lowercaseCheckBox.Location = new System.Drawing.Point(120, 21);
             this.lowercaseCheckBox.Name = "lowercaseCheckBox";
             this.lowercaseCheckBox.Size = new System.Drawing.Size(41, 17);
             this.lowercaseCheckBox.TabIndex = 7;
@@ -104,7 +104,7 @@ namespace Crypto_Notepad
             this.uppercaseCheckBox.AutoSize = true;
             this.uppercaseCheckBox.Checked = true;
             this.uppercaseCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.uppercaseCheckBox.Location = new System.Drawing.Point(6, 21);
+            this.uppercaseCheckBox.Location = new System.Drawing.Point(15, 21);
             this.uppercaseCheckBox.Name = "uppercaseCheckBox";
             this.uppercaseCheckBox.Size = new System.Drawing.Size(43, 17);
             this.uppercaseCheckBox.TabIndex = 8;
@@ -118,7 +118,7 @@ namespace Crypto_Notepad
             this.numericCheckBox.AutoSize = true;
             this.numericCheckBox.Checked = true;
             this.numericCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.numericCheckBox.Location = new System.Drawing.Point(102, 21);
+            this.numericCheckBox.Location = new System.Drawing.Point(225, 21);
             this.numericCheckBox.Name = "numericCheckBox";
             this.numericCheckBox.Size = new System.Drawing.Size(42, 17);
             this.numericCheckBox.TabIndex = 9;
@@ -198,7 +198,7 @@ namespace Crypto_Notepad
             // specialCheckBox
             // 
             this.specialCheckBox.AutoSize = true;
-            this.specialCheckBox.Location = new System.Drawing.Point(150, 21);
+            this.specialCheckBox.Location = new System.Drawing.Point(225, 41);
             this.specialCheckBox.Name = "specialCheckBox";
             this.specialCheckBox.Size = new System.Drawing.Size(117, 17);
             this.specialCheckBox.TabIndex = 13;
@@ -212,7 +212,7 @@ namespace Crypto_Notepad
             // additionalCheckBox
             // 
             this.additionalCheckBox.AutoSize = true;
-            this.additionalCheckBox.Location = new System.Drawing.Point(80, 41);
+            this.additionalCheckBox.Location = new System.Drawing.Point(120, 41);
             this.additionalCheckBox.Name = "additionalCheckBox";
             this.additionalCheckBox.Size = new System.Drawing.Size(80, 17);
             this.additionalCheckBox.TabIndex = 13;
@@ -226,7 +226,7 @@ namespace Crypto_Notepad
             // bracketsCheckBox
             // 
             this.bracketsCheckBox.AutoSize = true;
-            this.bracketsCheckBox.Location = new System.Drawing.Point(6, 41);
+            this.bracketsCheckBox.Location = new System.Drawing.Point(15, 41);
             this.bracketsCheckBox.Name = "bracketsCheckBox";
             this.bracketsCheckBox.Size = new System.Drawing.Size(68, 17);
             this.bracketsCheckBox.TabIndex = 13;
