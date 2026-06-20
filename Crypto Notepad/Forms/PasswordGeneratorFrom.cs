@@ -1,4 +1,4 @@
-﻿using Crypto_Notepad.Properties;
+using Crypto_Notepad.Properties;
 using PasswordGenerator;
 using System;
 using System.Collections.Generic;
@@ -177,13 +177,13 @@ namespace Crypto_Notepad
         private void CopyAllButton_Click(object sender, EventArgs e)
         {
             Clipboard.SetText(passwordsListTextBox.Text);
-            passwordGeneratorToolTip.SetToolTip(copyAllButton, "Copied");
+            passwordGeneratorToolTip.SetToolTip(copyAllButton, "已复制");
         }
 
         private void CopyLastButton_Click(object sender, EventArgs e)
         {
             Clipboard.SetText(passwordsListTextBox.Lines[passwordsListTextBox.Lines.Length - 1]);
-            passwordGeneratorToolTip.SetToolTip(copyLastButton, "Copied");
+            passwordGeneratorToolTip.SetToolTip(copyLastButton, "已复制");
         }
 
         private void PasswordsListTextBox_TextChanged(object sender, EventArgs e)

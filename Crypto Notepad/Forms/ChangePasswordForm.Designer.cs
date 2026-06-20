@@ -1,4 +1,4 @@
-﻿namespace Crypto_Notepad
+namespace Crypto_Notepad
 {
     partial class ChangePasswordForm
     {
@@ -54,7 +54,7 @@
             this.acceptButton.Name = "acceptButton";
             this.acceptButton.Size = new System.Drawing.Size(53, 25);
             this.acceptButton.TabIndex = 4;
-            this.acceptButton.Text = "Accept";
+            this.acceptButton.Text = "应用";
             this.acceptButton.UseVisualStyleBackColor = true;
             this.acceptButton.Click += new System.EventHandler(this.AcceptButton_Click);
             // 
@@ -119,7 +119,7 @@
             this.statusLabel.Name = "statusLabel";
             this.statusLabel.Size = new System.Drawing.Size(38, 15);
             this.statusLabel.TabIndex = 7;
-            this.statusLabel.Text = "status";
+            this.statusLabel.Text = "状态";
             // 
             // passwordGeneratorButton
             // 
@@ -128,7 +128,7 @@
             this.passwordGeneratorButton.Name = "passwordGeneratorButton";
             this.passwordGeneratorButton.Size = new System.Drawing.Size(25, 25);
             this.passwordGeneratorButton.TabIndex = 9;
-            this.changeKeyFormToolTip.SetToolTip(this.passwordGeneratorButton, "Password Generator");
+            this.changeKeyFormToolTip.SetToolTip(this.passwordGeneratorButton, "密码生成器");
             this.passwordGeneratorButton.UseVisualStyleBackColor = true;
             this.passwordGeneratorButton.Click += new System.EventHandler(this.PasswordGeneratorButton_Click);
             // 
@@ -137,7 +137,7 @@
             this.oldKeyTextBox.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.oldKeyTextBox.Location = new System.Drawing.Point(64, 14);
             this.oldKeyTextBox.Name = "oldKeyTextBox";
-            this.oldKeyTextBox.Placeholder = "Old password";
+            this.oldKeyTextBox.Placeholder = "旧密码";
             this.oldKeyTextBox.PlaceholderActiveForeColor = System.Drawing.Color.DarkGray;
             this.oldKeyTextBox.PlaceholderFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.oldKeyTextBox.PlaceholderForeColor = System.Drawing.Color.DarkGray;
@@ -152,7 +152,7 @@
             this.newKeyTextBox.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.newKeyTextBox.Location = new System.Drawing.Point(64, 39);
             this.newKeyTextBox.Name = "newKeyTextBox";
-            this.newKeyTextBox.Placeholder = "New password";
+            this.newKeyTextBox.Placeholder = "新密码";
             this.newKeyTextBox.PlaceholderActiveForeColor = System.Drawing.Color.DarkGray;
             this.newKeyTextBox.PlaceholderFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.newKeyTextBox.PlaceholderForeColor = System.Drawing.Color.DarkGray;
@@ -179,7 +179,7 @@
             this.Name = "ChangePasswordForm";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Change Password";
+            this.Text = "修改密码";
             this.mainPanel.ResumeLayout(false);
             this.mainPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lockPictureBox)).EndInit();

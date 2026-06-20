@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
@@ -203,8 +203,8 @@ namespace Crypto_Notepad
                 if (!metadata.GetMetadata(cipherTextBytes))
                 {
                     // Metadata parsing error
-                    DialogResult result = MessageBox.Show("Unable to parse file metadata.\nAttempt to open anyway?\n(May result in a \'Incorrect Key\' error if the salt is wrong.)",
-                    "Missing or Corrupted Metadata", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Asterisk, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+                    DialogResult result = MessageBox.Show("无法解析文件元数据。\n是否仍尝试打开？\n（如果盐不正确，可能会导致“密码错误”的错误。）",
+                    "元数据缺失或损坏", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Asterisk, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
                     if (result == DialogResult.Yes)
                     {
                         // Default initialization vector from builds v1.1.2 and older

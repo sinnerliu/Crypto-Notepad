@@ -1,4 +1,4 @@
-﻿namespace Crypto_Notepad
+namespace Crypto_Notepad
 {
     partial class EnterPasswordForm
     {
@@ -51,7 +51,7 @@
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(53, 25);
             this.okButton.TabIndex = 1;
-            this.okButton.Text = "OK";
+            this.okButton.Text = "确定";
             this.okButton.UseVisualStyleBackColor = true;
             this.okButton.Click += new System.EventHandler(this.OkButton_Click);
             // 
@@ -88,7 +88,7 @@
             this.fileNameLabel.Name = "fileNameLabel";
             this.fileNameLabel.Size = new System.Drawing.Size(221, 13);
             this.fileNameLabel.TabIndex = 6;
-            this.fileNameLabel.Text = "File name";
+            this.fileNameLabel.Text = "文件名";
             this.fileNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // keyTextBox
@@ -96,7 +96,7 @@
             this.keyTextBox.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.keyTextBox.Location = new System.Drawing.Point(64, 39);
             this.keyTextBox.Name = "keyTextBox";
-            this.keyTextBox.Placeholder = "Password";
+            this.keyTextBox.Placeholder = "密码/密钥";
             this.keyTextBox.PlaceholderActiveForeColor = System.Drawing.Color.DarkGray;
             this.keyTextBox.PlaceholderFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.keyTextBox.PlaceholderForeColor = System.Drawing.Color.DarkGray;
@@ -127,7 +127,7 @@
             this.passwordGeneratorButton.Name = "passwordGeneratorButton";
             this.passwordGeneratorButton.Size = new System.Drawing.Size(25, 25);
             this.passwordGeneratorButton.TabIndex = 10;
-            this.enterKeyFormToolTip.SetToolTip(this.passwordGeneratorButton, "Password Generator");
+            this.enterKeyFormToolTip.SetToolTip(this.passwordGeneratorButton, "密码生成器");
             this.passwordGeneratorButton.UseVisualStyleBackColor = true;
             this.passwordGeneratorButton.Click += new System.EventHandler(this.PasswordGeneratorButton_Click);
             // 

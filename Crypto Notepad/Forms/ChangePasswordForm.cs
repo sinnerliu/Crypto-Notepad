@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Drawing;
 using System.Media;
 using System.Threading.Tasks;
@@ -35,17 +35,17 @@ namespace Crypto_Notepad
             {
                 PublicVar.password.Set(newKeyTextBox.Text);
                 PublicVar.passwordChanged = true;
-                ChangePasswordStatus("Password was successfully changed", Color.Green);
+                ChangePasswordStatus("密码修改成功", Color.Green);
             }
             else if (oldKeyTextBox.Text != PublicVar.password.Get())
             {
                 SystemSounds.Hand.Play();
-                ChangePasswordStatus("Invalid old password", Color.Red);
+                ChangePasswordStatus("旧密码无效", Color.Red);
             }
             else if (oldKeyTextBox.Text == newKeyTextBox.Text)
             {
                 SystemSounds.Hand.Play();
-                ChangePasswordStatus("New password is the same as old", Color.Red);
+                ChangePasswordStatus("新密码不能与旧密码相同", Color.Red);
             }
         }
 

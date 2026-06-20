@@ -1,4 +1,4 @@
-﻿using Crypto_Notepad.Properties;
+using Crypto_Notepad.Properties;
 using Microsoft.Win32;
 using System;
 using System.ComponentModel;
@@ -154,7 +154,7 @@ namespace Crypto_Notepad
                     using (new CenterWinDialog(this))
                     {
                         TypedPassword.Value = null;
-                        DialogResult dialogResult = MessageBox.Show(this, "Invalid key!", PublicVar.appName, MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                        DialogResult dialogResult = MessageBox.Show(this, "无效的密码/密钥！", PublicVar.appName, MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
                         if (dialogResult == DialogResult.Retry)
                         {
                             await DecryptAES();
@@ -200,7 +200,7 @@ namespace Crypto_Notepad
                 {
                     using (new CenterWinDialog(this))
                     {
-                        DialogResult res = MessageBox.Show(this, "Try to decrypt \"" + PublicVar.openFileName + "\" file?", PublicVar.appName,
+                        DialogResult res = MessageBox.Show(this, "是否尝试解密文件 \"" + PublicVar.openFileName + "\"？", PublicVar.appName,
                             MessageBoxButtons.YesNo, MessageBoxIcon.Information);
                         if (res == DialogResult.No)
                         {
@@ -238,7 +238,7 @@ namespace Crypto_Notepad
 
         private async void ContextMenuEncryptReplace()
         {
-            DialogResult res = MessageBox.Show(this, "This action will delete the source file and replace it with encrypted version. File must be in UTF-8 Encoding.", PublicVar.appName,
+            DialogResult res = MessageBox.Show(this, "此操作将删除源文件并将其替换为加密版本。源文件必须使用 UTF-8 编码。", PublicVar.appName,
                 MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (res == DialogResult.Cancel)
             {
@@ -282,11 +282,11 @@ namespace Crypto_Notepad
                 }
                 if (!PublicVar.passwordChanged)
                 {
-                    messageBoxText = "Save file: " + "\"" + PublicVar.openFileName + "\"" + " ? ";
+                    messageBoxText = "是否保存文件: \"" + PublicVar.openFileName + "\"？";
                 }
                 else
                 {
-                    messageBoxText = "Save file: " + "\"" + PublicVar.openFileName + "\"" + " with a new key? ";
+                    messageBoxText = "是否使用新密钥保存文件: \"" + PublicVar.openFileName + "\"？";
                 }
                 if (Visible)
                 {
@@ -333,7 +333,7 @@ namespace Crypto_Notepad
                     {
                         using (new CenterWinDialog(this))
                         {
-                            DialogResult res = MessageBox.Show(this, "New version is available. Install it now?", PublicVar.appName,
+                            DialogResult res = MessageBox.Show(this, "发现新版本。是否立即安装？", PublicVar.appName,
                                 MessageBoxButtons.YesNo, MessageBoxIcon.Information);
                             if (res == DialogResult.Yes)
                             {
@@ -358,7 +358,7 @@ namespace Crypto_Notepad
                         }
                         else
                         {
-                            MessageBox.Show(this, "Crypto Notepad is up to date.", PublicVar.appName, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            MessageBox.Show(this, "Crypto Notepad 已是最新版本。", PublicVar.appName, MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }
                     }
                 }
@@ -375,7 +375,7 @@ namespace Crypto_Notepad
                         }
                         else
                         {
-                            MessageBox.Show(this, "Checking for updates failed:\nConnection lost or the server is busy.", PublicVar.appName,
+                            MessageBox.Show(this, "检查更新失败：\n网络连接丢失或服务器繁忙。", PublicVar.appName,
                                 MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
@@ -386,54 +386,54 @@ namespace Crypto_Notepad
 
         private async void StatusPanelMessage(string type)
         {
-            string ready = "Ready";
-            if (statusPanelLabel.Text == "New version is available")
+            string ready = "就绪";
+            if (statusPanelLabel.Text == "发现新版本")
             {
-                ready = "New version is available";
+                ready = "发现新版本";
             }
             switch (type)
             {
                 case "save":
-                    if (statusPanelLabel.Text != "File Saved")
+                    if (statusPanelLabel.Text != "文件已保存")
                     {
-                        statusPanelLabel.Text = "File Saved";
+                        statusPanelLabel.Text = "文件已保存";
                         await Task.Delay(3000);
                         statusPanelLabel.Text = ready;
                     }
                     break;
                 case "update-missing":
-                    statusPanelLabel.Text = "Crypto Notepad is up to date";
+                    statusPanelLabel.Text = "Crypto Notepad 已是最新版本";
                     await Task.Delay(3000);
                     statusPanelLabel.Text = ready;
                     break;
                 case "update-failed":
-                    statusPanelLabel.Text = "Checking for updates failed";
+                    statusPanelLabel.Text = "检查更新失败";
                     await Task.Delay(3000);
                     statusPanelLabel.Text = ready;
                     break;
                 case "update-needed":
-                    statusPanelLabel.Text = "New version is available";
+                    statusPanelLabel.Text = "发现新版本";
                     break;
                 case "always-top-on":
-                    if (statusPanelLabel.Text != "Always on top ON")
+                    if (statusPanelLabel.Text != "总在最前：开启")
                     {
-                        statusPanelLabel.Text = "Always on top ON";
+                        statusPanelLabel.Text = "总在最前：开启";
                         await Task.Delay(3000);
                         statusPanelLabel.Text = ready;
                     }
                     break;
                 case "always-top-off":
-                    if (statusPanelLabel.Text != "Always on top OFF")
+                    if (statusPanelLabel.Text != "总在最前：关闭")
                     {
-                        statusPanelLabel.Text = "Always on top OFF";
+                        statusPanelLabel.Text = "总在最前：关闭";
                         await Task.Delay(3000);
                         statusPanelLabel.Text = ready;
                     }
                     break;
                 case "clipboard-clear":
-                    if (statusPanelLabel.Text != "Clipboard cleared")
+                    if (statusPanelLabel.Text != "剪贴板已清除")
                     {
-                        statusPanelLabel.Text = "Clipboard cleared";
+                        statusPanelLabel.Text = "剪贴板已清除";
                         await Task.Delay(3000);
                         statusPanelLabel.Text = ready;
                     }
@@ -450,7 +450,7 @@ namespace Crypto_Notepad
                     if (!string.IsNullOrEmpty(filePath))
                     {
                         DateTime creation = File.GetLastWriteTime(filePath);
-                        statusPanelModifiedLabel.Text = "Modified: " + creation.ToString("dd.MM.yyyy");
+                        statusPanelModifiedLabel.Text = "修改时间: " + creation.ToString("dd.MM.yyyy");
                         statusPanelModifiedLabel.ToolTipText = creation.ToString();
                     }
                 }
@@ -459,12 +459,12 @@ namespace Crypto_Notepad
                     if (!string.IsNullOrEmpty(filePath))
                     {
                         long length = new FileInfo(filePath).Length;
-                        statusPanelSizeLabel.Text = "Size: " + Methods.SizeSuffix(length).ToString();
+                        statusPanelSizeLabel.Text = "大小: " + Methods.SizeSuffix(length).ToString();
                         StatusPanelTextInfo();
                     }
                 }
-                statusPanelReadonlyLabel.Text = "Readonly: " + readOnlyMainMenu.Checked.ToString();
-                statusPanelWordwrapLabel.Text = "Word Wrap: " + wordWrapMainMenu.Checked.ToString();
+                statusPanelReadonlyLabel.Text = "只读: " + (readOnlyMainMenu.Checked ? "是" : "否");
+                statusPanelWordwrapLabel.Text = "自动换行: " + (wordWrapMainMenu.Checked ? "是" : "否");
             }
         }
 
@@ -479,11 +479,11 @@ namespace Crypto_Notepad
                     {
                         linesCount = 1;
                     }
-                    statusPanelLinesLabel.Text = "Lines: " + linesCount;
+                    statusPanelLinesLabel.Text = "行数: " + linesCount;
                 }
                 if (statusPanelLengthLabel.Visible)
                 {
-                    statusPanelLengthLabel.Text = "Length: " + richTextBox.TextLength;
+                    statusPanelLengthLabel.Text = "字数: " + richTextBox.TextLength;
                 }
             }
         }
@@ -539,7 +539,7 @@ namespace Crypto_Notepad
                     PublicVar.messageBoxCenterParent = true;
                     using (new CenterWinDialog(this))
                     {
-                        DialogResult dialogResult = MessageBox.Show(this, "Invalid key!", PublicVar.appName, MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                        DialogResult dialogResult = MessageBox.Show(this, "无效的密码/密钥！", PublicVar.appName, MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
                         if (dialogResult == DialogResult.Retry)
                         {
                             UseWaitCursor = false;
@@ -937,11 +937,11 @@ namespace Crypto_Notepad
                     string messageBoxText;
                     if (!PublicVar.passwordChanged)
                     {
-                        messageBoxText = "Save file: " + "\"" + PublicVar.openFileName + "\"" + " ? ";
+                        messageBoxText = "是否保存文件: \"" + PublicVar.openFileName + "\"？";
                     }
                     else
                     {
-                        messageBoxText = "Save file: " + "\"" + PublicVar.openFileName + "\"" + " with a new password? ";
+                        messageBoxText = "是否使用新密码保存文件: \"" + PublicVar.openFileName + "\"？";
                     }
                     if (Visible)
                     {
@@ -1027,7 +1027,7 @@ namespace Crypto_Notepad
                 }
                 using (new CenterWinDialog(this))
                 {
-                    DialogResult res = MessageBox.Show(this, "Enable automatic update check at startup?\nThis action can be undone in settings.", PublicVar.appName, MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                    DialogResult res = MessageBox.Show(this, "是否在启动时启用自动检查更新？\n此设置稍后可以在“设置”中修改。", PublicVar.appName, MessageBoxButtons.YesNo, MessageBoxIcon.Information);
                     if (res == DialogResult.Yes)
                     {
                         settings.autoCheckUpdate = true;
@@ -1193,7 +1193,7 @@ namespace Crypto_Notepad
                 string exePath = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location) + @"\";
                 using (new CenterWinDialog(this))
                 {
-                    DialogResult res = MessageBox.Show(this, "New version is available. Install it now?", PublicVar.appName,
+                    DialogResult res = MessageBox.Show(this, "发现新版本。是否立即安装？", PublicVar.appName,
                         MessageBoxButtons.YesNo, MessageBoxIcon.Information);
                     if (res == DialogResult.Yes)
                     {
@@ -1428,8 +1428,8 @@ namespace Crypto_Notepad
                 PublicVar.messageBoxCenterParent = true;
                 using (new CenterWinDialog(this))
                 {
-                    if (MessageBox.Show(this, "Delete file: " + "\"" + filePath + "\"" + " ?", PublicVar.appName,
-                        MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    if (MessageBox.Show(this, "确定要删除文件: \"" + filePath + "\" 吗？", PublicVar.appName,
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                     {
                         File.Delete(filePath);
                         richTextBox.Clear();

@@ -1,4 +1,4 @@
-﻿using JCS;
+using JCS;
 using System;
 using System.Diagnostics;
 using System.Drawing;
@@ -26,7 +26,7 @@ namespace Crypto_Notepad
             sb.AppendLine(".Net Framework = " + Methods.GetDotNetVersion());
             Clipboard.SetText(sb.ToString());
             aboutToolTip.AutoPopDelay = 1000;
-            aboutToolTip.SetToolTip(appVersionLabel, "Copied");
+            aboutToolTip.SetToolTip(appVersionLabel, "已复制");
         }
         #endregion
 
@@ -97,7 +97,7 @@ namespace Crypto_Notepad
         private void appVersionLabel_MouseEnter(object sender, EventArgs e)
         {
             aboutToolTip.AutoPopDelay = 5000;
-            aboutToolTip.SetToolTip(appVersionLabel, "Left click for copy debug info to the clipboard");
+            aboutToolTip.SetToolTip(appVersionLabel, "左键双击复制调试信息到剪贴板");
         }
         #endregion
 

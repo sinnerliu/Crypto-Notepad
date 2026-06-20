@@ -1,4 +1,4 @@
-﻿namespace Crypto_Notepad
+namespace Crypto_Notepad
 {
     partial class PasswordGeneratorFrom
     {
@@ -57,7 +57,7 @@
             this.generateButton.Name = "generateButton";
             this.generateButton.Size = new System.Drawing.Size(66, 23);
             this.generateButton.TabIndex = 1;
-            this.generateButton.Text = "Generate";
+            this.generateButton.Text = "生成";
             this.generateButton.UseVisualStyleBackColor = true;
             this.generateButton.Click += new System.EventHandler(this.GenerateButton_Click);
             // 
@@ -81,7 +81,7 @@
             this.clearPasswordsListButton.Name = "clearPasswordsListButton";
             this.clearPasswordsListButton.Size = new System.Drawing.Size(66, 23);
             this.clearPasswordsListButton.TabIndex = 4;
-            this.clearPasswordsListButton.Text = "Clear";
+            this.clearPasswordsListButton.Text = "清除";
             this.clearPasswordsListButton.UseVisualStyleBackColor = true;
             this.clearPasswordsListButton.Click += new System.EventHandler(this.ClearPasswordsListButton_Click);
             // 
@@ -134,7 +134,7 @@
             this.passwordLengthLabel.Name = "passwordLengthLabel";
             this.passwordLengthLabel.Size = new System.Drawing.Size(130, 13);
             this.passwordLengthLabel.TabIndex = 8;
-            this.passwordLengthLabel.Text = "Password length [4-256]";
+            this.passwordLengthLabel.Text = "密码长度 [4-256]";
             // 
             // numberOfStringsLabel
             // 
@@ -143,7 +143,7 @@
             this.numberOfStringsLabel.Name = "numberOfStringsLabel";
             this.numberOfStringsLabel.Size = new System.Drawing.Size(143, 13);
             this.numberOfStringsLabel.TabIndex = 9;
-            this.numberOfStringsLabel.Text = "Number of strings [1-1000]";
+            this.numberOfStringsLabel.Text = "生成数量 [1-1000]";
             // 
             // passwordLengthTextBox
             // 
@@ -172,7 +172,7 @@
             this.copyAllButton.Name = "copyAllButton";
             this.copyAllButton.Size = new System.Drawing.Size(66, 23);
             this.copyAllButton.TabIndex = 3;
-            this.copyAllButton.Text = "Copy all";
+            this.copyAllButton.Text = "复制全部";
             this.copyAllButton.UseVisualStyleBackColor = true;
             this.copyAllButton.Click += new System.EventHandler(this.CopyAllButton_Click);
             this.copyAllButton.MouseEnter += new System.EventHandler(this.CopyAllButton_MouseEnter);
@@ -184,7 +184,7 @@
             this.copyLastButton.Name = "copyLastButton";
             this.copyLastButton.Size = new System.Drawing.Size(66, 23);
             this.copyLastButton.TabIndex = 2;
-            this.copyLastButton.Text = "Copy last";
+            this.copyLastButton.Text = "复制最后一个";
             this.copyLastButton.UseVisualStyleBackColor = true;
             this.copyLastButton.Click += new System.EventHandler(this.CopyLastButton_Click);
             this.copyLastButton.MouseEnter += new System.EventHandler(this.CopyLastButton_MouseEnter);
@@ -202,7 +202,7 @@
             this.specialCheckBox.Name = "specialCheckBox";
             this.specialCheckBox.Size = new System.Drawing.Size(117, 17);
             this.specialCheckBox.TabIndex = 13;
-            this.specialCheckBox.Text = "Special characters";
+            this.specialCheckBox.Text = "特殊字符";
             this.passwordGeneratorToolTip.SetToolTip(this.specialCheckBox, "/ \\ ! ? @ # & $ % №");
             this.specialCheckBox.UseVisualStyleBackColor = true;
             this.specialCheckBox.CheckedChanged += new System.EventHandler(this.PasswordValidation);
@@ -216,7 +216,7 @@
             this.additionalCheckBox.Name = "additionalCheckBox";
             this.additionalCheckBox.Size = new System.Drawing.Size(80, 17);
             this.additionalCheckBox.TabIndex = 13;
-            this.additionalCheckBox.Text = "Additional";
+            this.additionalCheckBox.Text = "附加字符";
             this.passwordGeneratorToolTip.SetToolTip(this.additionalCheckBox, "\" ; _ - . = * + : ^ , | \'");
             this.additionalCheckBox.UseVisualStyleBackColor = true;
             this.additionalCheckBox.CheckedChanged += new System.EventHandler(this.PasswordValidation);
@@ -230,7 +230,7 @@
             this.bracketsCheckBox.Name = "bracketsCheckBox";
             this.bracketsCheckBox.Size = new System.Drawing.Size(68, 17);
             this.bracketsCheckBox.TabIndex = 13;
-            this.bracketsCheckBox.Text = "Brackets";
+            this.bracketsCheckBox.Text = "括号";
             this.passwordGeneratorToolTip.SetToolTip(this.bracketsCheckBox, "( ) { } [ ] < >");
             this.bracketsCheckBox.UseVisualStyleBackColor = true;
             this.bracketsCheckBox.CheckedChanged += new System.EventHandler(this.PasswordValidation);
@@ -250,7 +250,7 @@
             this.specialGroupBox.Size = new System.Drawing.Size(282, 64);
             this.specialGroupBox.TabIndex = 12;
             this.specialGroupBox.TabStop = false;
-            this.specialGroupBox.Text = "Use characters";
+            this.specialGroupBox.Text = "使用字符";
             // 
             // PasswordGeneratorFrom
             // 
@@ -273,7 +273,7 @@
             this.MaximizeBox = false;
             this.Name = "PasswordGeneratorFrom";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
-            this.Text = "Password Generator";
+            this.Text = "密码生成器";
             this.Deactivate += new System.EventHandler(this.PasswordGeneratorFrom_Deactivate);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PasswordGeneratorFrom_FormClosing);
             this.Load += new System.EventHandler(this.PasswordGeneratorFrom_Load);

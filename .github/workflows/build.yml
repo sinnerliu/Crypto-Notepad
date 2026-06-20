@@ -1,0 +1,45 @@
+name: Build and Package
+
+on:
+  push:
+    branches:
+      - master
+      - main
+  pull_request:
+    branches:
+      - master
+      - main
+  workflow_dispatch: # 允许你在 GitHub 页面手动点击触发编译
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    # 1. 检出代码
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # 2. 设置 MSBuild 工具环境
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v2
+
+    # 3. 设置 NuGet 包还原工具
+    - name: Setup NuGet
+      uses: nuget/setup-nuget@v2
+
+    # 4. 还原 NuGet 包依赖
+    - name: Restore NuGet Packages
+      run: nuget restore "Crypto Notepad.sln"
+
+    # 5. 编译解决方案为 Release 版本
+    - name: Build Solution
+      run: msbuild "Crypto Notepad.sln" /t:Rebuild /p:Configuration=Release
+
+    # 6. 将编译生成的单文件 exe 打包上传到 GitHub Actions 产物中
+    - name: Upload Build Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: Crypto-Notepad-Release
+        path: |
+          Crypto Notepad/bin/Release/Crypto Notepad.exe

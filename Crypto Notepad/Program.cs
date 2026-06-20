@@ -1,4 +1,4 @@
-﻿using Crypto_Notepad.Properties;
+using Crypto_Notepad.Properties;
 using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
@@ -34,7 +34,7 @@ namespace Crypto_Notepad
                 else
                 {
                     DialogResult dialogResult = MessageBox.Show(
-                    PublicVar.appName + " is already running.\nDo you still want to open a new copy of the app?", 
+                    PublicVar.appName + " 已经在运行。\n您仍然想打开该程序的新副本吗？", 
                     PublicVar.appName, MessageBoxButtons.YesNo, MessageBoxIcon.Warning, 
                     MessageBoxDefaultButton.Button2, MessageBoxOptions.DefaultDesktopOnly);
                     if (dialogResult == DialogResult.Yes)

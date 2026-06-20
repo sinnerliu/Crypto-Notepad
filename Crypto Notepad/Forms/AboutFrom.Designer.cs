@@ -1,4 +1,4 @@
-﻿namespace Crypto_Notepad
+namespace Crypto_Notepad
 {
     partial class AboutFrom
     {
@@ -102,7 +102,7 @@
             this.Name = "AboutFrom";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "About";
+            this.Text = "关于";
             this.Load += new System.EventHandler(this.AboutWindow_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

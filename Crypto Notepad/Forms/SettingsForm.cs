@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Drawing;
 using System.Linq;
 using System.Reflection;
@@ -20,14 +20,23 @@ namespace Crypto_Notepad
         {
             editorFontColor.BackColor = settings.editorForeColor;
             editorBackColor.BackColor = settings.editorBackColor;
-            editorInsertKeyComboBox.Text = settings.insertKey;
+            editorInsertKeyComboBox.Text = settings.insertKey == "Enable" ? "启用" : (settings.insertKey == "Disable" ? "禁用" : settings.insertKey);
             if (settings.clipboardClearTime != "")
             {
                 clearClipboardTextBox.Text = settings.clipboardClearTime.Remove(settings.clipboardClearTime.Length - 1);
             }
             editorPaddingLeftTextBox.Text = settings.editorPaddingLeft;
-            editorOpenLinksWithComboBox.Text = settings.openLinks;
-            editorBorderComboBox.Text = settings.editorBorder;
+            string openLinksVal = settings.openLinks;
+            if (openLinksVal == "LMB Click") editorOpenLinksWithComboBox.Text = "鼠标左键单击";
+            else if (openLinksVal == "Shift+LMB") editorOpenLinksWithComboBox.Text = "Shift + 鼠标左键";
+            else if (openLinksVal == "Control+LMB") editorOpenLinksWithComboBox.Text = "Ctrl + 鼠标左键";
+            else editorOpenLinksWithComboBox.Text = openLinksVal;
+
+            string editorBorderVal = settings.editorBorder;
+            if (editorBorderVal == "None") editorBorderComboBox.Text = "无";
+            else if (editorBorderVal == "FixedSingle") editorBorderComboBox.Text = "单线边框";
+            else if (editorBorderVal == "Fixed3D") editorBorderComboBox.Text = "3D边框";
+            else editorBorderComboBox.Text = editorBorderVal;
             fontDialog.Font = settings.editorFont;
             editorFontLabel.Text = settings.editorFont.Name.ToString() + " " + settings.editorFont.Size.ToString();
             lockTimeoutTextBox.Text = settings.lockTimeout;
@@ -50,7 +59,10 @@ namespace Crypto_Notepad
             openTxtUnencryptedCheckBox.Checked = settings.openTxtUnencrypted;
             searchBackColor.BackColor = settings.searchPanelBackColor;
             searchFontColor.BackColor = settings.searchPanelForeColor;
-            searchBorderComboBox.Text = settings.searchPanelBorder;
+            string searchBorderVal = settings.searchPanelBorder;
+            if (searchBorderVal == "None") searchBorderComboBox.Text = "无";
+            else if (searchBorderVal == "Single") searchBorderComboBox.Text = "单线";
+            else searchBorderComboBox.Text = searchBorderVal;
             toolbarBackColor.BackColor = settings.toolbarBackColor;
             toolbarBorderCheckBox.Checked = settings.toolbarBorder;
             toolbarVisibleCheckBox.Checked = settings.toolbarVisible;
@@ -280,9 +292,11 @@ namespace Crypto_Notepad
         private void EditorInsertKeyComboBox_DropDownClosed(object sender, EventArgs e)
         {
             MainForm main = Owner as MainForm;
-            if (settings.insertKey != editorInsertKeyComboBox.Text)
+            string text = editorInsertKeyComboBox.Text;
+            string val = text == "启用" ? "Enable" : (text == "禁用" ? "Disable" : text);
+            if (settings.insertKey != val)
             {
-                if (editorInsertKeyComboBox.Text == "Disable")
+                if (val == "Disable")
                 {
                     main.insertMainMenu.ShortcutKeys = Keys.Insert;
                 }
@@ -290,7 +304,7 @@ namespace Crypto_Notepad
                 {
                     main.insertMainMenu.ShortcutKeys = Keys.None;
                 }
-                settings.insertKey = editorInsertKeyComboBox.Text;
+                settings.insertKey = val;
             }
         }
 
@@ -466,9 +480,14 @@ namespace Crypto_Notepad
 
         private void EditorOpenLinksWithComboBox_DropDownClosed(object sender, EventArgs e)
         {
-            if (settings.openLinks != editorOpenLinksWithComboBox.Text)
+            string text = editorOpenLinksWithComboBox.Text;
+            string val = text;
+            if (text == "鼠标左键单击") val = "LMB Click";
+            else if (text == "Shift + 鼠标左键") val = "Shift+LMB";
+            else if (text == "Ctrl + 鼠标左键") val = "Control+LMB";
+            if (settings.openLinks != val)
             {
-                settings.openLinks = editorOpenLinksWithComboBox.Text;
+                settings.openLinks = val;
             }
         }
 
@@ -523,15 +542,24 @@ namespace Crypto_Notepad
         private void EditorBorderComboBox_DropDownClosed(object sender, EventArgs e)
         {
             MainForm main = Owner as MainForm;
-            main.richTextBoxPanel.BorderStyle = (BorderStyle)Enum.Parse(typeof(BorderStyle), editorBorderComboBox.Text);
-            settings.editorBorder = editorBorderComboBox.Text;
+            string text = editorBorderComboBox.Text;
+            string val = text;
+            if (text == "无") val = "None";
+            else if (text == "单线边框") val = "FixedSingle";
+            else if (text == "3D边框") val = "Fixed3D";
+            main.richTextBoxPanel.BorderStyle = (BorderStyle)Enum.Parse(typeof(BorderStyle), val);
+            settings.editorBorder = val;
         }
 
         private void SearchBorderComboBox_DropDownClosed(object sender, EventArgs e)
         {
             MainForm main = Owner as MainForm;
-            main.searchPanel.CellBorderStyle = (TableLayoutPanelCellBorderStyle)Enum.Parse(typeof(TableLayoutPanelCellBorderStyle), searchBorderComboBox.Text);
-            settings.searchPanelBorder = searchBorderComboBox.Text;
+            string text = searchBorderComboBox.Text;
+            string val = text;
+            if (text == "无") val = "None";
+            else if (text == "单线") val = "Single";
+            main.searchPanel.CellBorderStyle = (TableLayoutPanelCellBorderStyle)Enum.Parse(typeof(TableLayoutPanelCellBorderStyle), val);
+            settings.searchPanelBorder = val;
         }
 
         private void ToolbarCloseButtonCheckBox_Click(object sender, EventArgs e)

@@ -1,4 +1,4 @@
-﻿namespace Crypto_Notepad
+namespace Crypto_Notepad
 {
     partial class MainForm
     {
@@ -202,7 +202,7 @@
             this.fileMainMenu.ForeColor = System.Drawing.SystemColors.ControlText;
             this.fileMainMenu.Name = "fileMainMenu";
             this.fileMainMenu.Size = new System.Drawing.Size(37, 24);
-            this.fileMainMenu.Text = "File";
+            this.fileMainMenu.Text = "文件";
             this.fileMainMenu.DropDownOpening += new System.EventHandler(this.FileMainMenu_DropDownOpening);
             // 
             // newMainMenu
@@ -211,7 +211,7 @@
             this.newMainMenu.ShortcutKeyDisplayString = "";
             this.newMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
             this.newMainMenu.Size = new System.Drawing.Size(248, 22);
-            this.newMainMenu.Text = "New";
+            this.newMainMenu.Text = "新建";
             this.newMainMenu.Click += new System.EventHandler(this.NewMainMenu_Click);
             // 
             // openMainMenu
@@ -219,7 +219,7 @@
             this.openMainMenu.Name = "openMainMenu";
             this.openMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
             this.openMainMenu.Size = new System.Drawing.Size(248, 22);
-            this.openMainMenu.Text = "Open...";
+            this.openMainMenu.Text = "打开...";
             this.openMainMenu.Click += new System.EventHandler(this.OpenMainMenu_Click);
             // 
             // mainMenuSeparator1
@@ -232,7 +232,7 @@
             this.saveMainMenu.Name = "saveMainMenu";
             this.saveMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
             this.saveMainMenu.Size = new System.Drawing.Size(248, 22);
-            this.saveMainMenu.Text = "Save";
+            this.saveMainMenu.Text = "保存";
             this.saveMainMenu.Click += new System.EventHandler(this.SaveMainMenu_Click);
             // 
             // saveAsMainMenu
@@ -241,7 +241,7 @@
             this.saveAsMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.S)));
             this.saveAsMainMenu.Size = new System.Drawing.Size(248, 22);
-            this.saveAsMainMenu.Text = "Save As...";
+            this.saveAsMainMenu.Text = "另存为...";
             this.saveAsMainMenu.Click += new System.EventHandler(this.SaveAsMainMenu_Click);
             // 
             // saveCloseFileMainMenu
@@ -250,7 +250,7 @@
             this.saveCloseFileMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.S)));
             this.saveCloseFileMainMenu.Size = new System.Drawing.Size(248, 22);
-            this.saveCloseFileMainMenu.Text = "Save && Close File";
+            this.saveCloseFileMainMenu.Text = "保存并关闭文件";
             this.saveCloseFileMainMenu.Click += new System.EventHandler(this.SaveCloseFileMainMenu_Click);
             // 
             // mainMenuSeparator2
@@ -264,7 +264,7 @@
             this.openFileLocationMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.O)));
             this.openFileLocationMainMenu.Size = new System.Drawing.Size(248, 22);
-            this.openFileLocationMainMenu.Text = "Open File Location";
+            this.openFileLocationMainMenu.Text = "打开文件位置";
             this.openFileLocationMainMenu.Click += new System.EventHandler(this.OpenFileLocationMainMenu_Click);
             // 
             // deleteFileMainMenu
@@ -273,7 +273,7 @@
             this.deleteFileMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.D)));
             this.deleteFileMainMenu.Size = new System.Drawing.Size(248, 22);
-            this.deleteFileMainMenu.Text = "Delete File";
+            this.deleteFileMainMenu.Text = "删除文件";
             this.deleteFileMainMenu.Click += new System.EventHandler(this.DeleteFileToolStripMenuItem_Click);
             // 
             // tryToDecryptMainMenu
@@ -282,7 +282,7 @@
             this.tryToDecryptMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.E)));
             this.tryToDecryptMainMenu.Size = new System.Drawing.Size(248, 22);
-            this.tryToDecryptMainMenu.Text = "Try to Decrypt";
+            this.tryToDecryptMainMenu.Text = "尝试解密";
             this.tryToDecryptMainMenu.Click += new System.EventHandler(this.TryToDecryptMainMenu_Click);
             // 
             // mainMenuSeparator3
@@ -295,7 +295,7 @@
             this.exitMainMenu.Name = "exitMainMenu";
             this.exitMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Q)));
             this.exitMainMenu.Size = new System.Drawing.Size(248, 22);
-            this.exitMainMenu.Text = "Exit";
+            this.exitMainMenu.Text = "退出";
             this.exitMainMenu.Click += new System.EventHandler(this.ExitMainMenu_Click);
             // 
             // editMainMenu
@@ -321,7 +321,7 @@
             this.editMainMenu.ForeColor = System.Drawing.SystemColors.ControlText;
             this.editMainMenu.Name = "editMainMenu";
             this.editMainMenu.Size = new System.Drawing.Size(39, 24);
-            this.editMainMenu.Text = "Edit";
+            this.editMainMenu.Text = "编辑";
             this.editMainMenu.DropDownOpening += new System.EventHandler(this.EditMainMenu_DropDownOpening);
             this.editMainMenu.DropDownOpened += new System.EventHandler(this.EditMainMenu_DropDownOpened);
             // 
@@ -330,7 +330,7 @@
             this.undoMainMenu.Name = "undoMainMenu";
             this.undoMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
             this.undoMainMenu.Size = new System.Drawing.Size(198, 22);
-            this.undoMainMenu.Text = "Undo";
+            this.undoMainMenu.Text = "撤销";
             this.undoMainMenu.Click += new System.EventHandler(this.UndoMainMenu_Click);
             // 
             // redoMainMenu
@@ -338,7 +338,7 @@
             this.redoMainMenu.Name = "redoMainMenu";
             this.redoMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Y)));
             this.redoMainMenu.Size = new System.Drawing.Size(198, 22);
-            this.redoMainMenu.Text = "Redo";
+            this.redoMainMenu.Text = "重做";
             this.redoMainMenu.Click += new System.EventHandler(this.RedoMainMenu_Click);
             // 
             // mainMenuSeparator4
@@ -352,7 +352,7 @@
             this.cutMainMenu.Name = "cutMainMenu";
             this.cutMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
             this.cutMainMenu.Size = new System.Drawing.Size(198, 22);
-            this.cutMainMenu.Text = "Cut";
+            this.cutMainMenu.Text = "剪切";
             this.cutMainMenu.Click += new System.EventHandler(this.CutMainMenu_Click);
             // 
             // copyMainMenu
@@ -361,7 +361,7 @@
             this.copyMainMenu.Name = "copyMainMenu";
             this.copyMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
             this.copyMainMenu.Size = new System.Drawing.Size(198, 22);
-            this.copyMainMenu.Text = "Copy";
+            this.copyMainMenu.Text = "复制";
             this.copyMainMenu.Click += new System.EventHandler(this.CopyMainMenu_Click);
             // 
             // pasteMainMenu
@@ -369,7 +369,7 @@
             this.pasteMainMenu.Name = "pasteMainMenu";
             this.pasteMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
             this.pasteMainMenu.Size = new System.Drawing.Size(198, 22);
-            this.pasteMainMenu.Text = "Paste";
+            this.pasteMainMenu.Text = "粘贴";
             this.pasteMainMenu.Click += new System.EventHandler(this.PasteMainMenu_Click);
             // 
             // deleteMainMenu
@@ -378,7 +378,7 @@
             this.deleteMainMenu.Name = "deleteMainMenu";
             this.deleteMainMenu.ShortcutKeys = System.Windows.Forms.Keys.Delete;
             this.deleteMainMenu.Size = new System.Drawing.Size(198, 22);
-            this.deleteMainMenu.Text = "Delete";
+            this.deleteMainMenu.Text = "删除";
             this.deleteMainMenu.Click += new System.EventHandler(this.DeleteMainMenu_Click);
             // 
             // mainMenuSeparator5
@@ -391,7 +391,7 @@
             this.findMainMenu.Name = "findMainMenu";
             this.findMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
             this.findMainMenu.Size = new System.Drawing.Size(198, 22);
-            this.findMainMenu.Text = "Find";
+            this.findMainMenu.Text = "查找";
             this.findMainMenu.Click += new System.EventHandler(this.FindMainMenu_Click);
             // 
             // mainMenuSeparator6
@@ -405,7 +405,7 @@
             this.selectAllMainMenu.ShortcutKeyDisplayString = "";
             this.selectAllMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
             this.selectAllMainMenu.Size = new System.Drawing.Size(198, 22);
-            this.selectAllMainMenu.Text = "Select All";
+            this.selectAllMainMenu.Text = "全选";
             this.selectAllMainMenu.Click += new System.EventHandler(this.SelectAllMainMenu_Click);
             // 
             // clearClipboardMainMenu
@@ -413,7 +413,7 @@
             this.clearClipboardMainMenu.Name = "clearClipboardMainMenu";
             this.clearClipboardMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
             this.clearClipboardMainMenu.Size = new System.Drawing.Size(198, 22);
-            this.clearClipboardMainMenu.Text = "Clear Clipboard";
+            this.clearClipboardMainMenu.Text = "清除剪贴板";
             this.clearClipboardMainMenu.Click += new System.EventHandler(this.ClearClipboardMainMenu_Click);
             // 
             // wordWrapMainMenu
@@ -424,7 +424,7 @@
             this.wordWrapMainMenu.Name = "wordWrapMainMenu";
             this.wordWrapMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.W)));
             this.wordWrapMainMenu.Size = new System.Drawing.Size(198, 22);
-            this.wordWrapMainMenu.Text = "Word Wrap";
+            this.wordWrapMainMenu.Text = "自动换行";
             this.wordWrapMainMenu.Click += new System.EventHandler(this.WordWrapMainMenu_Click);
             // 
             // readOnlyMainMenu
@@ -433,7 +433,7 @@
             this.readOnlyMainMenu.Name = "readOnlyMainMenu";
             this.readOnlyMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.R)));
             this.readOnlyMainMenu.Size = new System.Drawing.Size(198, 22);
-            this.readOnlyMainMenu.Text = "Readonly";
+            this.readOnlyMainMenu.Text = "只读";
             this.readOnlyMainMenu.Click += new System.EventHandler(this.ReadOnlyMainMenu_Click);
             // 
             // insertDateTimeMainMenu
@@ -441,7 +441,7 @@
             this.insertDateTimeMainMenu.Name = "insertDateTimeMainMenu";
             this.insertDateTimeMainMenu.ShortcutKeys = System.Windows.Forms.Keys.F5;
             this.insertDateTimeMainMenu.Size = new System.Drawing.Size(198, 22);
-            this.insertDateTimeMainMenu.Text = "Insert Date Time";
+            this.insertDateTimeMainMenu.Text = "插入日期/时间";
             this.insertDateTimeMainMenu.Click += new System.EventHandler(this.InsertDateTimeMainMenu_Click);
             // 
             // mainMenuSeparator7
@@ -454,7 +454,7 @@
             this.clearMainMenu.Name = "clearMainMenu";
             this.clearMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Delete)));
             this.clearMainMenu.Size = new System.Drawing.Size(198, 22);
-            this.clearMainMenu.Text = "Clear";
+            this.clearMainMenu.Text = "清除";
             this.clearMainMenu.Click += new System.EventHandler(this.ClearMainMenu_Click);
             // 
             // toolsMainMenu
@@ -469,7 +469,7 @@
             this.toolsMainMenu.ForeColor = System.Drawing.SystemColors.ControlText;
             this.toolsMainMenu.Name = "toolsMainMenu";
             this.toolsMainMenu.Size = new System.Drawing.Size(46, 24);
-            this.toolsMainMenu.Text = "Tools";
+            this.toolsMainMenu.Text = "工具";
             this.toolsMainMenu.DropDownOpening += new System.EventHandler(this.ToolsMainMenu_DropDownOpening);
             // 
             // alwaysOnTopMainMenu
@@ -478,7 +478,7 @@
             this.alwaysOnTopMainMenu.Name = "alwaysOnTopMainMenu";
             this.alwaysOnTopMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.T)));
             this.alwaysOnTopMainMenu.Size = new System.Drawing.Size(245, 22);
-            this.alwaysOnTopMainMenu.Text = "Always on Top";
+            this.alwaysOnTopMainMenu.Text = "总在最前";
             this.alwaysOnTopMainMenu.Click += new System.EventHandler(this.AlwaysOnTopMainMenu_Click);
             // 
             // passwordGeneratorMainMenu
@@ -486,7 +486,7 @@
             this.passwordGeneratorMainMenu.Name = "passwordGeneratorMainMenu";
             this.passwordGeneratorMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
             this.passwordGeneratorMainMenu.Size = new System.Drawing.Size(245, 22);
-            this.passwordGeneratorMainMenu.Text = "Password Generator";
+            this.passwordGeneratorMainMenu.Text = "密码生成器";
             this.passwordGeneratorMainMenu.Click += new System.EventHandler(this.PasswordGeneratorMainMenu_Click);
             // 
             // changePasswordMainMenu
@@ -495,7 +495,7 @@
             this.changePasswordMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.P)));
             this.changePasswordMainMenu.Size = new System.Drawing.Size(245, 22);
-            this.changePasswordMainMenu.Text = "Change Password";
+            this.changePasswordMainMenu.Text = "修改密码";
             this.changePasswordMainMenu.Click += new System.EventHandler(this.ChangePasswordMainMenu_Click);
             // 
             // lockMainMenu
@@ -503,7 +503,7 @@
             this.lockMainMenu.Name = "lockMainMenu";
             this.lockMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.L)));
             this.lockMainMenu.Size = new System.Drawing.Size(245, 22);
-            this.lockMainMenu.Text = "Lock";
+            this.lockMainMenu.Text = "锁定";
             this.lockMainMenu.Click += new System.EventHandler(this.LockMainMenu_Click);
             // 
             // settingsMainMenu
@@ -513,7 +513,7 @@
             this.settingsMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.T)));
             this.settingsMainMenu.Size = new System.Drawing.Size(245, 22);
-            this.settingsMainMenu.Text = "Settings";
+            this.settingsMainMenu.Text = "设置";
             this.settingsMainMenu.Click += new System.EventHandler(this.SettingsMainMenu_Click);
             // 
             // pasteBoardMainMenu
@@ -523,7 +523,7 @@
             this.pasteBoardMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.P)));
             this.pasteBoardMainMenu.Size = new System.Drawing.Size(245, 22);
-            this.pasteBoardMainMenu.Text = "Use as Paste Board";
+            this.pasteBoardMainMenu.Text = "用作剪切板";
             this.pasteBoardMainMenu.Click += new System.EventHandler(this.PasteBoardMainMenu_Click);
             // 
             // helpMainMenu
@@ -536,14 +536,14 @@
             this.helpMainMenu.ForeColor = System.Drawing.SystemColors.ControlText;
             this.helpMainMenu.Name = "helpMainMenu";
             this.helpMainMenu.Size = new System.Drawing.Size(44, 24);
-            this.helpMainMenu.Text = "Help";
+            this.helpMainMenu.Text = "帮助";
             // 
             // documentationMainMenu
             // 
             this.documentationMainMenu.Name = "documentationMainMenu";
             this.documentationMainMenu.ShortcutKeys = System.Windows.Forms.Keys.F1;
             this.documentationMainMenu.Size = new System.Drawing.Size(222, 22);
-            this.documentationMainMenu.Text = "Documentation";
+            this.documentationMainMenu.Text = "帮助文档";
             this.documentationMainMenu.Click += new System.EventHandler(this.DocumentationMainMenu_Click);
             // 
             // checkForUpdatesMainMenu
@@ -552,7 +552,7 @@
             this.checkForUpdatesMainMenu.RightToLeftAutoMirrorImage = true;
             this.checkForUpdatesMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.U)));
             this.checkForUpdatesMainMenu.Size = new System.Drawing.Size(222, 22);
-            this.checkForUpdatesMainMenu.Text = "Сheck for Updates...";
+            this.checkForUpdatesMainMenu.Text = "检查更新...";
             this.checkForUpdatesMainMenu.Click += new System.EventHandler(this.CheckForUpdatesMainMenu_Click);
             // 
             // mainMenuSeparator8
@@ -569,7 +569,7 @@
             this.aboutMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.A)));
             this.aboutMainMenu.Size = new System.Drawing.Size(222, 22);
-            this.aboutMainMenu.Text = "About";
+            this.aboutMainMenu.Text = "关于";
             this.aboutMainMenu.Click += new System.EventHandler(this.AboutMainMenu_Click);
             // 
             // debugMainMenu
@@ -580,7 +580,7 @@
             this.insertMainMenu});
             this.debugMainMenu.Name = "debugMainMenu";
             this.debugMainMenu.Size = new System.Drawing.Size(54, 24);
-            this.debugMainMenu.Text = "Debug";
+            this.debugMainMenu.Text = "调试";
             this.debugMainMenu.Visible = false;
             // 
             // variablesMainMenu
@@ -588,14 +588,14 @@
             this.variablesMainMenu.Name = "variablesMainMenu";
             this.variablesMainMenu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Space)));
             this.variablesMainMenu.Size = new System.Drawing.Size(215, 22);
-            this.variablesMainMenu.Text = "Main variables";
+            this.variablesMainMenu.Text = "主要变量";
             this.variablesMainMenu.Click += new System.EventHandler(this.VariablesMainMenu_Click);
             // 
             // insertMainMenu
             // 
             this.insertMainMenu.Name = "insertMainMenu";
             this.insertMainMenu.Size = new System.Drawing.Size(215, 22);
-            this.insertMainMenu.Text = "Insert";
+            this.insertMainMenu.Text = "插入";
             this.insertMainMenu.Visible = false;
             // 
             // contextMenu
@@ -623,7 +623,7 @@
             this.undoContextMenu.ForeColor = System.Drawing.SystemColors.ControlText;
             this.undoContextMenu.Name = "undoContextMenu";
             this.undoContextMenu.Size = new System.Drawing.Size(184, 22);
-            this.undoContextMenu.Text = "Undo";
+            this.undoContextMenu.Text = "撤销";
             this.undoContextMenu.Click += new System.EventHandler(this.UndoContextMenu_Click);
             // 
             // redoContextMenu
@@ -631,7 +631,7 @@
             this.redoContextMenu.ForeColor = System.Drawing.SystemColors.ControlText;
             this.redoContextMenu.Name = "redoContextMenu";
             this.redoContextMenu.Size = new System.Drawing.Size(184, 22);
-            this.redoContextMenu.Text = "Redo";
+            this.redoContextMenu.Text = "重做";
             this.redoContextMenu.Click += new System.EventHandler(this.RedoContextMenu_Click);
             // 
             // contextMenuSeparator1
@@ -644,7 +644,7 @@
             this.cutContextMenu.ForeColor = System.Drawing.SystemColors.ControlText;
             this.cutContextMenu.Name = "cutContextMenu";
             this.cutContextMenu.Size = new System.Drawing.Size(184, 22);
-            this.cutContextMenu.Text = "Cut";
+            this.cutContextMenu.Text = "剪切";
             this.cutContextMenu.Click += new System.EventHandler(this.CutContextMenu_Click);
             // 
             // copyContextMenu
@@ -652,7 +652,7 @@
             this.copyContextMenu.ForeColor = System.Drawing.SystemColors.ControlText;
             this.copyContextMenu.Name = "copyContextMenu";
             this.copyContextMenu.Size = new System.Drawing.Size(184, 22);
-            this.copyContextMenu.Text = "Copy";
+            this.copyContextMenu.Text = "复制";
             this.copyContextMenu.Click += new System.EventHandler(this.CopyContextMenu_Click);
             // 
             // pasteContextMenu
@@ -660,7 +660,7 @@
             this.pasteContextMenu.ForeColor = System.Drawing.SystemColors.ControlText;
             this.pasteContextMenu.Name = "pasteContextMenu";
             this.pasteContextMenu.Size = new System.Drawing.Size(184, 22);
-            this.pasteContextMenu.Text = "Paste";
+            this.pasteContextMenu.Text = "粘贴";
             this.pasteContextMenu.Click += new System.EventHandler(this.PasteContextMenu_Click);
             // 
             // deleteContextMenu
@@ -668,7 +668,7 @@
             this.deleteContextMenu.ForeColor = System.Drawing.SystemColors.ControlText;
             this.deleteContextMenu.Name = "deleteContextMenu";
             this.deleteContextMenu.Size = new System.Drawing.Size(184, 22);
-            this.deleteContextMenu.Text = "Delete";
+            this.deleteContextMenu.Text = "删除";
             this.deleteContextMenu.Click += new System.EventHandler(this.DeleteContextMenu_Click);
             // 
             // contextMenuSeparator2
@@ -681,7 +681,7 @@
             this.selectAllContextMenu.ForeColor = System.Drawing.SystemColors.ControlText;
             this.selectAllContextMenu.Name = "selectAllContextMenu";
             this.selectAllContextMenu.Size = new System.Drawing.Size(184, 22);
-            this.selectAllContextMenu.Text = "Select All";
+            this.selectAllContextMenu.Text = "全选";
             this.selectAllContextMenu.Click += new System.EventHandler(this.SelectAllContextMenu_Click);
             // 
             // rightToLeftContextMenu
@@ -690,7 +690,7 @@
             this.rightToLeftContextMenu.ForeColor = System.Drawing.SystemColors.ControlText;
             this.rightToLeftContextMenu.Name = "rightToLeftContextMenu";
             this.rightToLeftContextMenu.Size = new System.Drawing.Size(184, 22);
-            this.rightToLeftContextMenu.Text = "Right-to-left reading";
+            this.rightToLeftContextMenu.Text = "从右至左阅读";
             this.rightToLeftContextMenu.Click += new System.EventHandler(this.RightToLeftContextMenu_Click);
             // 
             // clearContextMenu
@@ -698,16 +698,16 @@
             this.clearContextMenu.ForeColor = System.Drawing.SystemColors.ControlText;
             this.clearContextMenu.Name = "clearContextMenu";
             this.clearContextMenu.Size = new System.Drawing.Size(184, 22);
-            this.clearContextMenu.Text = "Clear";
+            this.clearContextMenu.Text = "清除";
             this.clearContextMenu.Click += new System.EventHandler(this.ClearContextMenu_Click);
             // 
             // openFileDialog
             // 
-            this.openFileDialog.Filter = "Crypto Notepad (*.cnp)|*.cnp|All files (*.*)|*.*";
+            this.openFileDialog.Filter = "加密记事本 (*.cnp)|*.cnp|所有文件 (*.*)|*.*";
             // 
             // saveFileDialog
             // 
-            this.saveFileDialog.Filter = "Crypto Notepad (*.cnp)|*.cnp|Normal text file (*.txt)|*.txt|All Files (*.*)|*.*";
+            this.saveFileDialog.Filter = "加密记事本 (*.cnp)|*.cnp|普通文本文件 (*.txt)|*.txt|所有文件 (*.*)|*.*";
             // 
             // searchPanel
             // 
@@ -760,7 +760,7 @@
             this.searchWholeWordCheckBox.Size = new System.Drawing.Size(94, 19);
             this.searchWholeWordCheckBox.TabIndex = 12;
             this.searchWholeWordCheckBox.TabStop = false;
-            this.searchWholeWordCheckBox.Text = "Whole word";
+            this.searchWholeWordCheckBox.Text = "全字匹配";
             this.searchWholeWordCheckBox.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.searchWholeWordCheckBox.UseVisualStyleBackColor = false;
             this.searchWholeWordCheckBox.CheckedChanged += new System.EventHandler(this.SearchWholeWordCheckBox_CheckedChanged);
@@ -777,7 +777,7 @@
             this.searchCaseSensitiveCheckBox.Size = new System.Drawing.Size(98, 19);
             this.searchCaseSensitiveCheckBox.TabIndex = 11;
             this.searchCaseSensitiveCheckBox.TabStop = false;
-            this.searchCaseSensitiveCheckBox.Text = "Case sensitive";
+            this.searchCaseSensitiveCheckBox.Text = "区分大小写";
             this.searchCaseSensitiveCheckBox.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.searchCaseSensitiveCheckBox.UseVisualStyleBackColor = false;
             this.searchCaseSensitiveCheckBox.CheckedChanged += new System.EventHandler(this.SearchCaseSensitiveCheckBox_CheckedChanged);
@@ -807,7 +807,7 @@
             this.searchFindNextButton.Name = "searchFindNextButton";
             this.searchFindNextButton.Size = new System.Drawing.Size(66, 25);
             this.searchFindNextButton.TabIndex = 17;
-            this.searchFindNextButton.Text = "Find Next";
+            this.searchFindNextButton.Text = "查找下一个";
             this.searchFindNextButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.searchFindNextButton.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SearchFindNextButton_MouseDoubleClick);
             this.searchFindNextButton.MouseEnter += new System.EventHandler(this.SearchFindNextButton_MouseEnter);
@@ -883,7 +883,7 @@
             this.newToolbarButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.newToolbarButton.TabIndex = 15;
             this.newToolbarButton.TabStop = false;
-            this.toolTip.SetToolTip(this.newToolbarButton, "New");
+            this.toolTip.SetToolTip(this.newToolbarButton, "新建");
             this.newToolbarButton.Click += new System.EventHandler(this.NewToolbarButton_Click);
             // 
             // openToolbarButton
@@ -897,7 +897,7 @@
             this.openToolbarButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.openToolbarButton.TabIndex = 15;
             this.openToolbarButton.TabStop = false;
-            this.toolTip.SetToolTip(this.openToolbarButton, "Open");
+            this.toolTip.SetToolTip(this.openToolbarButton, "打开");
             this.openToolbarButton.Click += new System.EventHandler(this.OpenToolbarButton_Click);
             // 
             // pasteToolbarButton
@@ -911,7 +911,7 @@
             this.pasteToolbarButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pasteToolbarButton.TabIndex = 15;
             this.pasteToolbarButton.TabStop = false;
-            this.toolTip.SetToolTip(this.pasteToolbarButton, "Paste");
+            this.toolTip.SetToolTip(this.pasteToolbarButton, "粘贴");
             this.pasteToolbarButton.Click += new System.EventHandler(this.PasteToolbarButton_Click);
             // 
             // saveToolbarButton
@@ -925,7 +925,7 @@
             this.saveToolbarButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.saveToolbarButton.TabIndex = 15;
             this.saveToolbarButton.TabStop = false;
-            this.toolTip.SetToolTip(this.saveToolbarButton, "Save");
+            this.toolTip.SetToolTip(this.saveToolbarButton, "保存");
             this.saveToolbarButton.Click += new System.EventHandler(this.SaveToolbarButton_Click);
             // 
             // copyToolbarButton
@@ -939,7 +939,7 @@
             this.copyToolbarButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.copyToolbarButton.TabIndex = 15;
             this.copyToolbarButton.TabStop = false;
-            this.toolTip.SetToolTip(this.copyToolbarButton, "Copy");
+            this.toolTip.SetToolTip(this.copyToolbarButton, "复制");
             this.copyToolbarButton.Click += new System.EventHandler(this.CopyToolbarButton_Click);
             // 
             // fileLocationToolbarButton
@@ -953,7 +953,7 @@
             this.fileLocationToolbarButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.fileLocationToolbarButton.TabIndex = 15;
             this.fileLocationToolbarButton.TabStop = false;
-            this.toolTip.SetToolTip(this.fileLocationToolbarButton, "Open file folder");
+            this.toolTip.SetToolTip(this.fileLocationToolbarButton, "打开文件目录");
             this.fileLocationToolbarButton.Click += new System.EventHandler(this.FileLocationToolbarButton_Click);
             // 
             // cutToolbarButton
@@ -967,7 +967,7 @@
             this.cutToolbarButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.cutToolbarButton.TabIndex = 15;
             this.cutToolbarButton.TabStop = false;
-            this.toolTip.SetToolTip(this.cutToolbarButton, "Cut");
+            this.toolTip.SetToolTip(this.cutToolbarButton, "剪切");
             this.cutToolbarButton.Click += new System.EventHandler(this.CutToolbarButton_Click);
             // 
             // deleteFileToolbarButton
@@ -981,7 +981,7 @@
             this.deleteFileToolbarButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.deleteFileToolbarButton.TabIndex = 15;
             this.deleteFileToolbarButton.TabStop = false;
-            this.toolTip.SetToolTip(this.deleteFileToolbarButton, "Delete file");
+            this.toolTip.SetToolTip(this.deleteFileToolbarButton, "删除文件");
             this.deleteFileToolbarButton.Click += new System.EventHandler(this.DeleteFileToolbarButton_Click);
             // 
             // tryToDecryptToolbarButton
@@ -994,7 +994,7 @@
             this.tryToDecryptToolbarButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.tryToDecryptToolbarButton.TabIndex = 18;
             this.tryToDecryptToolbarButton.TabStop = false;
-            this.toolTip.SetToolTip(this.tryToDecryptToolbarButton, "Try to decrypt");
+            this.toolTip.SetToolTip(this.tryToDecryptToolbarButton, "尝试解密");
             this.tryToDecryptToolbarButton.Click += new System.EventHandler(this.TryToDecryptToolbarButton_Click);
             // 
             // changePasswordToolbarButton
@@ -1008,7 +1008,7 @@
             this.changePasswordToolbarButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.changePasswordToolbarButton.TabIndex = 15;
             this.changePasswordToolbarButton.TabStop = false;
-            this.toolTip.SetToolTip(this.changePasswordToolbarButton, "Change password");
+            this.toolTip.SetToolTip(this.changePasswordToolbarButton, "修改密码");
             this.changePasswordToolbarButton.Click += new System.EventHandler(this.ChangePasswordToolbarButton_Click);
             // 
             // lockToolbarButton
@@ -1022,7 +1022,7 @@
             this.lockToolbarButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.lockToolbarButton.TabIndex = 15;
             this.lockToolbarButton.TabStop = false;
-            this.toolTip.SetToolTip(this.lockToolbarButton, "Lock");
+            this.toolTip.SetToolTip(this.lockToolbarButton, "锁定");
             this.lockToolbarButton.Click += new System.EventHandler(this.LockToolbarButton_Click);
             // 
             // alwaysOnTopToolbarButton
@@ -1036,7 +1036,7 @@
             this.alwaysOnTopToolbarButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.alwaysOnTopToolbarButton.TabIndex = 15;
             this.alwaysOnTopToolbarButton.TabStop = false;
-            this.toolTip.SetToolTip(this.alwaysOnTopToolbarButton, "Always on top");
+            this.toolTip.SetToolTip(this.alwaysOnTopToolbarButton, "总在最前");
             this.alwaysOnTopToolbarButton.Click += new System.EventHandler(this.AlwaysOnTopToolbarButton_Click);
             // 
             // settingsToolbarButton
@@ -1050,7 +1050,7 @@
             this.settingsToolbarButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.settingsToolbarButton.TabIndex = 15;
             this.settingsToolbarButton.TabStop = false;
-            this.toolTip.SetToolTip(this.settingsToolbarButton, "Settings");
+            this.toolTip.SetToolTip(this.settingsToolbarButton, "设置");
             this.settingsToolbarButton.Click += new System.EventHandler(this.SettingsToolbarButton_Click);
             // 
             // statusPanel

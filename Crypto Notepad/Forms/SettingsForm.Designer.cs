@@ -1,4 +1,4 @@
-﻿namespace Crypto_Notepad
+namespace Crypto_Notepad
 {
     partial class SettingsForm
     {
@@ -133,7 +133,7 @@
             this.editorFontColorLabel.Name = "editorFontColorLabel";
             this.editorFontColorLabel.Size = new System.Drawing.Size(83, 23);
             this.editorFontColorLabel.TabIndex = 0;
-            this.editorFontColorLabel.Text = "Font color";
+            this.editorFontColorLabel.Text = "字体颜色";
             this.editorFontColorLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // colorDialog
@@ -182,7 +182,7 @@
             this.autoLockGroupBox.Size = new System.Drawing.Size(312, 75);
             this.autoLockGroupBox.TabIndex = 3;
             this.autoLockGroupBox.TabStop = false;
-            this.autoLockGroupBox.Text = "Auto lock";
+            this.autoLockGroupBox.Text = "自动锁定";
             // 
             // autoLockMinutesLabel
             // 
@@ -191,7 +191,7 @@
             this.autoLockMinutesLabel.Name = "autoLockMinutesLabel";
             this.autoLockMinutesLabel.Size = new System.Drawing.Size(50, 15);
             this.autoLockMinutesLabel.TabIndex = 0;
-            this.autoLockMinutesLabel.Text = "minutes";
+            this.autoLockMinutesLabel.Text = "分钟";
             // 
             // autoLockOnMinimizeCheckBox
             // 
@@ -200,7 +200,7 @@
             this.autoLockOnMinimizeCheckBox.Name = "autoLockOnMinimizeCheckBox";
             this.autoLockOnMinimizeCheckBox.Size = new System.Drawing.Size(146, 19);
             this.autoLockOnMinimizeCheckBox.TabIndex = 7;
-            this.autoLockOnMinimizeCheckBox.Text = "Auto lock on minimize";
+            this.autoLockOnMinimizeCheckBox.Text = "最小化时自动锁定";
             this.autoLockOnMinimizeCheckBox.UseVisualStyleBackColor = true;
             this.autoLockOnMinimizeCheckBox.Click += new System.EventHandler(this.AutoLockOnMinimizeCheckBox_Click);
             // 
@@ -224,7 +224,7 @@
             this.lockTimeoutLabel.Name = "lockTimeoutLabel";
             this.lockTimeoutLabel.Size = new System.Drawing.Size(125, 15);
             this.lockTimeoutLabel.TabIndex = 7;
-            this.lockTimeoutLabel.Text = "If the app is inactive in";
+            this.lockTimeoutLabel.Text = "如果程序无操作达到";
             // 
             // integrationGroupBox
             // 
@@ -237,7 +237,7 @@
             this.integrationGroupBox.Size = new System.Drawing.Size(312, 102);
             this.integrationGroupBox.TabIndex = 2;
             this.integrationGroupBox.TabStop = false;
-            this.integrationGroupBox.Text = "Integration";
+            this.integrationGroupBox.Text = "系统集成";
             // 
             // integrateCheckBox
             // 
@@ -246,7 +246,7 @@
             this.integrateCheckBox.Name = "integrateCheckBox";
             this.integrateCheckBox.Size = new System.Drawing.Size(226, 19);
             this.integrateCheckBox.TabIndex = 4;
-            this.integrateCheckBox.Text = "Integrate with windows context menu";
+            this.integrateCheckBox.Text = "集成到 Windows 右键菜单";
             this.integrateCheckBox.UseVisualStyleBackColor = true;
             this.integrateCheckBox.Click += new System.EventHandler(this.IntegrateCheckBox_Click);
             // 
@@ -257,7 +257,7 @@
             this.associateCheckBox.Name = "associateCheckBox";
             this.associateCheckBox.Size = new System.Drawing.Size(219, 19);
             this.associateCheckBox.TabIndex = 5;
-            this.associateCheckBox.Text = "Associate *.cnp files with application";
+            this.associateCheckBox.Text = "关联 *.cnp 文件到此程序";
             this.associateCheckBox.UseVisualStyleBackColor = true;
             this.associateCheckBox.Click += new System.EventHandler(this.AssociateCheckBox_Click);
             // 
@@ -268,7 +268,7 @@
             this.sendToCheckBox.Name = "sendToCheckBox";
             this.sendToCheckBox.Size = new System.Drawing.Size(205, 19);
             this.sendToCheckBox.TabIndex = 6;
-            this.sendToCheckBox.Text = "Show in windows \"Send to\" menu";
+            this.sendToCheckBox.Text = "显示在 Windows “发送到” 菜单";
             this.sendToCheckBox.UseVisualStyleBackColor = true;
             this.sendToCheckBox.Click += new System.EventHandler(this.SendToCheckBox_Click);
             // 
@@ -287,7 +287,7 @@
             this.applicationGroupBox.Size = new System.Drawing.Size(312, 122);
             this.applicationGroupBox.TabIndex = 1;
             this.applicationGroupBox.TabStop = false;
-            this.applicationGroupBox.Text = "Application";
+            this.applicationGroupBox.Text = "常规应用";
             // 
             // trayMenuCheckBox
             // 
@@ -296,7 +296,7 @@
             this.trayMenuCheckBox.Name = "trayMenuCheckBox";
             this.trayMenuCheckBox.Size = new System.Drawing.Size(81, 19);
             this.trayMenuCheckBox.TabIndex = 10;
-            this.trayMenuCheckBox.Text = "Tray menu";
+            this.trayMenuCheckBox.Text = "托盘菜单";
             this.trayMenuCheckBox.UseVisualStyleBackColor = true;
             this.trayMenuCheckBox.Click += new System.EventHandler(this.TrayMenuCheckBox_Click);
             // 
@@ -307,7 +307,7 @@
             this.openTxtUnencryptedCheckBox.Name = "openTxtUnencryptedCheckBox";
             this.openTxtUnencryptedCheckBox.Size = new System.Drawing.Size(254, 19);
             this.openTxtUnencryptedCheckBox.TabIndex = 9;
-            this.openTxtUnencryptedCheckBox.Text = "Open all files except *.cnp like unencrypted";
+            this.openTxtUnencryptedCheckBox.Text = "非 *.cnp 文件默认以明文打开";
             this.openTxtUnencryptedCheckBox.UseVisualStyleBackColor = true;
             this.openTxtUnencryptedCheckBox.Click += new System.EventHandler(this.OpenTxtUnencryptedCheckBox_Click);
             // 
@@ -318,7 +318,7 @@
             this.clearClipboardCheckBox.Name = "clearClipboardCheckBox";
             this.clearClipboardCheckBox.Size = new System.Drawing.Size(168, 19);
             this.clearClipboardCheckBox.TabIndex = 4;
-            this.clearClipboardCheckBox.Text = "Clear clipboard on app exit";
+            this.clearClipboardCheckBox.Text = "程序退出时清除剪贴板";
             this.clearClipboardCheckBox.UseVisualStyleBackColor = true;
             this.clearClipboardCheckBox.Click += new System.EventHandler(this.ClearClipboardCheckBox_Click);
             // 
@@ -329,7 +329,7 @@
             this.autoCheckUpdatesCheckBox.Name = "autoCheckUpdatesCheckBox";
             this.autoCheckUpdatesCheckBox.Size = new System.Drawing.Size(184, 19);
             this.autoCheckUpdatesCheckBox.TabIndex = 2;
-            this.autoCheckUpdatesCheckBox.Text = "Auto check updates at startup";
+            this.autoCheckUpdatesCheckBox.Text = "启动时自动检查更新";
             this.autoCheckUpdatesCheckBox.UseVisualStyleBackColor = true;
             this.autoCheckUpdatesCheckBox.Click += new System.EventHandler(this.AutoCheckUpdatesCheckBox_Click);
             // 
@@ -340,7 +340,7 @@
             this.singleInstanceCheckBox.Name = "singleInstanceCheckBox";
             this.singleInstanceCheckBox.Size = new System.Drawing.Size(105, 19);
             this.singleInstanceCheckBox.TabIndex = 3;
-            this.singleInstanceCheckBox.Text = "Single instance";
+            this.singleInstanceCheckBox.Text = "单实例模式 (只允许运行一个程序)";
             this.singleInstanceCheckBox.UseVisualStyleBackColor = true;
             this.singleInstanceCheckBox.Click += new System.EventHandler(this.SingleInstanceCheckBox_Click);
             // 
@@ -351,7 +351,7 @@
             this.closeToTrayCheckBox.Name = "closeToTrayCheckBox";
             this.closeToTrayCheckBox.Size = new System.Drawing.Size(92, 19);
             this.closeToTrayCheckBox.TabIndex = 1;
-            this.closeToTrayCheckBox.Text = "Close to tray";
+            this.closeToTrayCheckBox.Text = "关闭时最小化到托盘";
             this.closeToTrayCheckBox.UseVisualStyleBackColor = true;
             this.closeToTrayCheckBox.Click += new System.EventHandler(this.CloseToTrayCheckBox_Click);
             // 
@@ -362,7 +362,7 @@
             this.minimizeToTrayCheckBox.Name = "minimizeToTrayCheckBox";
             this.minimizeToTrayCheckBox.Size = new System.Drawing.Size(112, 19);
             this.minimizeToTrayCheckBox.TabIndex = 0;
-            this.minimizeToTrayCheckBox.Text = "Minimize to tray";
+            this.minimizeToTrayCheckBox.Text = "最小化到系统托盘";
             this.minimizeToTrayCheckBox.UseVisualStyleBackColor = true;
             this.minimizeToTrayCheckBox.Click += new System.EventHandler(this.MinimizeToTrayCheckBox_Click);
             // 
@@ -396,7 +396,7 @@
             this.statusPanelGroupBox.Size = new System.Drawing.Size(295, 205);
             this.statusPanelGroupBox.TabIndex = 4;
             this.statusPanelGroupBox.TabStop = false;
-            this.statusPanelGroupBox.Text = "Status Panel";
+            this.statusPanelGroupBox.Text = "状态栏";
             // 
             // statusPanelLabelsGroupBox
             // 
@@ -413,7 +413,7 @@
             this.statusPanelLabelsGroupBox.Size = new System.Drawing.Size(277, 97);
             this.statusPanelLabelsGroupBox.TabIndex = 9;
             this.statusPanelLabelsGroupBox.TabStop = false;
-            this.statusPanelLabelsGroupBox.Text = "Labels";
+            this.statusPanelLabelsGroupBox.Text = "状态栏显示项目";
             // 
             // statusPanelPasteboardCheckBox
             // 
@@ -422,7 +422,7 @@
             this.statusPanelPasteboardCheckBox.Name = "statusPanelPasteboardCheckBox";
             this.statusPanelPasteboardCheckBox.Size = new System.Drawing.Size(88, 19);
             this.statusPanelPasteboardCheckBox.TabIndex = 10;
-            this.statusPanelPasteboardCheckBox.Text = "Paste Board";
+            this.statusPanelPasteboardCheckBox.Text = "剪切板状态";
             this.statusPanelPasteboardCheckBox.UseVisualStyleBackColor = true;
             this.statusPanelPasteboardCheckBox.Click += new System.EventHandler(this.StatusPanelPasteboardCheckBox_Click);
             // 
@@ -433,7 +433,7 @@
             this.statusPanelClipboardCheckBox.Name = "statusPanelClipboardCheckBox";
             this.statusPanelClipboardCheckBox.Size = new System.Drawing.Size(78, 19);
             this.statusPanelClipboardCheckBox.TabIndex = 14;
-            this.statusPanelClipboardCheckBox.Text = "Clipboard";
+            this.statusPanelClipboardCheckBox.Text = "剪贴板状态";
             this.statusPanelClipboardCheckBox.UseVisualStyleBackColor = true;
             this.statusPanelClipboardCheckBox.Click += new System.EventHandler(this.StatusPanelClipboardCheckBox_Click);
             // 
@@ -444,7 +444,7 @@
             this.statusPanelWordwrapCheckBox.Name = "statusPanelWordwrapCheckBox";
             this.statusPanelWordwrapCheckBox.Size = new System.Drawing.Size(86, 19);
             this.statusPanelWordwrapCheckBox.TabIndex = 13;
-            this.statusPanelWordwrapCheckBox.Text = "Word Wrap";
+            this.statusPanelWordwrapCheckBox.Text = "自动换行状态";
             this.statusPanelWordwrapCheckBox.UseVisualStyleBackColor = true;
             this.statusPanelWordwrapCheckBox.Click += new System.EventHandler(this.StatusPanelWordwrapCheckBox_Click);
             // 
@@ -455,7 +455,7 @@
             this.statusPanelReadonlyCheckBox.Name = "statusPanelReadonlyCheckBox";
             this.statusPanelReadonlyCheckBox.Size = new System.Drawing.Size(75, 19);
             this.statusPanelReadonlyCheckBox.TabIndex = 10;
-            this.statusPanelReadonlyCheckBox.Text = "Readonly";
+            this.statusPanelReadonlyCheckBox.Text = "只读状态";
             this.statusPanelReadonlyCheckBox.UseVisualStyleBackColor = true;
             this.statusPanelReadonlyCheckBox.Click += new System.EventHandler(this.StatusPanelReadonlyCheckBox_Click);
             // 
@@ -466,7 +466,7 @@
             this.statusPanelSizeCheckBox.Name = "statusPanelSizeCheckBox";
             this.statusPanelSizeCheckBox.Size = new System.Drawing.Size(46, 19);
             this.statusPanelSizeCheckBox.TabIndex = 12;
-            this.statusPanelSizeCheckBox.Text = "Size";
+            this.statusPanelSizeCheckBox.Text = "文件大小";
             this.statusPanelSizeCheckBox.UseVisualStyleBackColor = true;
             this.statusPanelSizeCheckBox.Click += new System.EventHandler(this.StatusPanelSizeCheckBox_Click);
             // 
@@ -477,7 +477,7 @@
             this.statusPanelLinesCheckBox.Name = "statusPanelLinesCheckBox";
             this.statusPanelLinesCheckBox.Size = new System.Drawing.Size(53, 19);
             this.statusPanelLinesCheckBox.TabIndex = 10;
-            this.statusPanelLinesCheckBox.Text = "Lines";
+            this.statusPanelLinesCheckBox.Text = "行数";
             this.statusPanelLinesCheckBox.UseVisualStyleBackColor = true;
             this.statusPanelLinesCheckBox.Click += new System.EventHandler(this.StatusPanelLinesCheckBox_Click);
             // 
@@ -488,7 +488,7 @@
             this.statusPanelModifiedCheckBox.Name = "statusPanelModifiedCheckBox";
             this.statusPanelModifiedCheckBox.Size = new System.Drawing.Size(74, 19);
             this.statusPanelModifiedCheckBox.TabIndex = 11;
-            this.statusPanelModifiedCheckBox.Text = "Modified";
+            this.statusPanelModifiedCheckBox.Text = "修改时间";
             this.statusPanelModifiedCheckBox.UseVisualStyleBackColor = true;
             this.statusPanelModifiedCheckBox.Click += new System.EventHandler(this.StatusPanelModifiedCheckBox_Click);
             // 
@@ -499,7 +499,7 @@
             this.statusPanelLengthCheckBox.Name = "statusPanelLengthCheckBox";
             this.statusPanelLengthCheckBox.Size = new System.Drawing.Size(63, 19);
             this.statusPanelLengthCheckBox.TabIndex = 9;
-            this.statusPanelLengthCheckBox.Text = "Length";
+            this.statusPanelLengthCheckBox.Text = "字数/长度";
             this.statusPanelLengthCheckBox.UseVisualStyleBackColor = true;
             this.statusPanelLengthCheckBox.Click += new System.EventHandler(this.StatusPanelLengthCheckBox_Click);
             // 
@@ -510,7 +510,7 @@
             this.statusPanelVisibleCheckBox.Name = "statusPanelVisibleCheckBox";
             this.statusPanelVisibleCheckBox.Size = new System.Drawing.Size(60, 19);
             this.statusPanelVisibleCheckBox.TabIndex = 8;
-            this.statusPanelVisibleCheckBox.Text = "Visible";
+            this.statusPanelVisibleCheckBox.Text = "显示状态栏";
             this.statusPanelVisibleCheckBox.UseVisualStyleBackColor = true;
             this.statusPanelVisibleCheckBox.Click += new System.EventHandler(this.StatusPanelVisibleCheckBox_Click);
             // 
@@ -520,7 +520,7 @@
             this.statusPanelBackColorLabel.Name = "statusPanelBackColorLabel";
             this.statusPanelBackColorLabel.Size = new System.Drawing.Size(120, 23);
             this.statusPanelBackColorLabel.TabIndex = 0;
-            this.statusPanelBackColorLabel.Text = "Background color";
+            this.statusPanelBackColorLabel.Text = "背景颜色";
             this.statusPanelBackColorLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // statusPanelFontColorLabel
@@ -529,7 +529,7 @@
             this.statusPanelFontColorLabel.Name = "statusPanelFontColorLabel";
             this.statusPanelFontColorLabel.Size = new System.Drawing.Size(96, 23);
             this.statusPanelFontColorLabel.TabIndex = 1;
-            this.statusPanelFontColorLabel.Text = "Font color";
+            this.statusPanelFontColorLabel.Text = "字体颜色";
             this.statusPanelFontColorLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // statusPanelBackColor
@@ -568,15 +568,15 @@
             this.searchPanelGroupBox.Size = new System.Drawing.Size(295, 110);
             this.searchPanelGroupBox.TabIndex = 3;
             this.searchPanelGroupBox.TabStop = false;
-            this.searchPanelGroupBox.Text = "Search Panel";
+            this.searchPanelGroupBox.Text = "查找栏";
             // 
             // searchBorderComboBox
             // 
             this.searchBorderComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.searchBorderComboBox.FormattingEnabled = true;
             this.searchBorderComboBox.Items.AddRange(new object[] {
-            "None",
-            "Single"});
+            "无",
+            "单线"});
             this.searchBorderComboBox.Location = new System.Drawing.Point(145, 74);
             this.searchBorderComboBox.Name = "searchBorderComboBox";
             this.searchBorderComboBox.Size = new System.Drawing.Size(141, 23);
@@ -589,7 +589,7 @@
             this.searchBackColorLabel.Name = "searchBackColorLabel";
             this.searchBackColorLabel.Size = new System.Drawing.Size(120, 23);
             this.searchBackColorLabel.TabIndex = 0;
-            this.searchBackColorLabel.Text = "Background color";
+            this.searchBackColorLabel.Text = "背景颜色";
             this.searchBackColorLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // searchBorderLabel
@@ -599,7 +599,7 @@
             this.searchBorderLabel.Name = "searchBorderLabel";
             this.searchBorderLabel.Size = new System.Drawing.Size(42, 15);
             this.searchBorderLabel.TabIndex = 4;
-            this.searchBorderLabel.Text = "Border";
+            this.searchBorderLabel.Text = "边框样式";
             // 
             // searchFontColorLabel
             // 
@@ -607,7 +607,7 @@
             this.searchFontColorLabel.Name = "searchFontColorLabel";
             this.searchFontColorLabel.Size = new System.Drawing.Size(87, 23);
             this.searchFontColorLabel.TabIndex = 1;
-            this.searchFontColorLabel.Text = "Font color";
+            this.searchFontColorLabel.Text = "字体颜色";
             this.searchFontColorLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // searchFontColor
@@ -646,7 +646,7 @@
             this.toolbarGroupBox.Size = new System.Drawing.Size(295, 98);
             this.toolbarGroupBox.TabIndex = 2;
             this.toolbarGroupBox.TabStop = false;
-            this.toolbarGroupBox.Text = "Toolbar";
+            this.toolbarGroupBox.Text = "工具栏";
             // 
             // toolbarCloseButtonCheckBox
             // 
@@ -655,7 +655,7 @@
             this.toolbarCloseButtonCheckBox.Name = "toolbarCloseButtonCheckBox";
             this.toolbarCloseButtonCheckBox.Size = new System.Drawing.Size(94, 19);
             this.toolbarCloseButtonCheckBox.TabIndex = 6;
-            this.toolbarCloseButtonCheckBox.Text = "Close button";
+            this.toolbarCloseButtonCheckBox.Text = "显示关闭按钮";
             this.toolbarCloseButtonCheckBox.UseVisualStyleBackColor = true;
             this.toolbarCloseButtonCheckBox.Click += new System.EventHandler(this.ToolbarCloseButtonCheckBox_Click);
             // 
@@ -666,7 +666,7 @@
             this.toolbarBorderCheckBox.Name = "toolbarBorderCheckBox";
             this.toolbarBorderCheckBox.Size = new System.Drawing.Size(61, 19);
             this.toolbarBorderCheckBox.TabIndex = 4;
-            this.toolbarBorderCheckBox.Text = "Border";
+            this.toolbarBorderCheckBox.Text = "显示边框";
             this.toolbarBorderCheckBox.UseVisualStyleBackColor = true;
             this.toolbarBorderCheckBox.Click += new System.EventHandler(this.ToolbarBorderCheckBox_Click);
             // 
@@ -677,7 +677,7 @@
             this.toolbarOldIconsCheckBox.Name = "toolbarOldIconsCheckBox";
             this.toolbarOldIconsCheckBox.Size = new System.Drawing.Size(76, 19);
             this.toolbarOldIconsCheckBox.TabIndex = 5;
-            this.toolbarOldIconsCheckBox.Text = "Old icons";
+            this.toolbarOldIconsCheckBox.Text = "经典图标";
             this.toolbarOldIconsCheckBox.UseVisualStyleBackColor = true;
             this.toolbarOldIconsCheckBox.Click += new System.EventHandler(this.ToolbarOldIconsCheckBox_Click);
             // 
@@ -687,7 +687,7 @@
             this.toolbarBackColorLabel.Name = "toolbarBackColorLabel";
             this.toolbarBackColorLabel.Size = new System.Drawing.Size(120, 23);
             this.toolbarBackColorLabel.TabIndex = 9;
-            this.toolbarBackColorLabel.Text = "Background color";
+            this.toolbarBackColorLabel.Text = "背景颜色";
             this.toolbarBackColorLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // toolbarBackColor
@@ -708,7 +708,7 @@
             this.toolbarVisibleCheckBox.Name = "toolbarVisibleCheckBox";
             this.toolbarVisibleCheckBox.Size = new System.Drawing.Size(60, 19);
             this.toolbarVisibleCheckBox.TabIndex = 3;
-            this.toolbarVisibleCheckBox.Text = "Visible";
+            this.toolbarVisibleCheckBox.Text = "显示工具栏";
             this.toolbarVisibleCheckBox.UseVisualStyleBackColor = true;
             this.toolbarVisibleCheckBox.Click += new System.EventHandler(this.ToolbarVisibleCheckBox_Click);
             // 
@@ -723,7 +723,7 @@
             this.mainMenuGroupBox.Size = new System.Drawing.Size(295, 49);
             this.mainMenuGroupBox.TabIndex = 1;
             this.mainMenuGroupBox.TabStop = false;
-            this.mainMenuGroupBox.Text = "Main menu";
+            this.mainMenuGroupBox.Text = "主菜单";
             // 
             // shortcutKeysCheckBox
             // 
@@ -732,7 +732,7 @@
             this.shortcutKeysCheckBox.Name = "shortcutKeysCheckBox";
             this.shortcutKeysCheckBox.Size = new System.Drawing.Size(97, 19);
             this.shortcutKeysCheckBox.TabIndex = 3;
-            this.shortcutKeysCheckBox.Text = "Shortcut keys";
+            this.shortcutKeysCheckBox.Text = "显示快捷键提示";
             this.shortcutKeysCheckBox.UseVisualStyleBackColor = true;
             this.shortcutKeysCheckBox.Click += new System.EventHandler(this.ShortcutKeysCheckBox_Click);
             // 
@@ -743,7 +743,7 @@
             this.mainMenuCheckBox.Name = "mainMenuCheckBox";
             this.mainMenuCheckBox.Size = new System.Drawing.Size(60, 19);
             this.mainMenuCheckBox.TabIndex = 1;
-            this.mainMenuCheckBox.Text = "Visible";
+            this.mainMenuCheckBox.Text = "显示主菜单";
             this.mainMenuCheckBox.UseVisualStyleBackColor = true;
             this.mainMenuCheckBox.Click += new System.EventHandler(this.MainMenuCheckBox_Click);
             // 
@@ -754,7 +754,7 @@
             this.menuIconsCheckBox.Name = "menuIconsCheckBox";
             this.menuIconsCheckBox.Size = new System.Drawing.Size(88, 19);
             this.menuIconsCheckBox.TabIndex = 2;
-            this.menuIconsCheckBox.Text = "Menu icons";
+            this.menuIconsCheckBox.Text = "显示菜单图标";
             this.menuIconsCheckBox.UseVisualStyleBackColor = true;
             this.menuIconsCheckBox.Click += new System.EventHandler(this.MenuIconsCheckBox_Click);
             // 
@@ -802,7 +802,7 @@
             this.clearClipboardLabel.Name = "clearClipboardLabel";
             this.clearClipboardLabel.Size = new System.Drawing.Size(143, 15);
             this.clearClipboardLabel.TabIndex = 24;
-            this.clearClipboardLabel.Text = "Clipboard auto-clear time";
+            this.clearClipboardLabel.Text = "剪贴板自动清除延时";
             // 
             // editorFontLabel
             // 
@@ -823,7 +823,7 @@
             this.fontStyleLabel.Name = "fontStyleLabel";
             this.fontStyleLabel.Size = new System.Drawing.Size(58, 15);
             this.fontStyleLabel.TabIndex = 22;
-            this.fontStyleLabel.Text = "Font style";
+            this.fontStyleLabel.Text = "字体样式";
             // 
             // editorFontColor
             // 
@@ -843,7 +843,7 @@
             this.editorInsertKeyLabel.Name = "editorInsertKeyLabel";
             this.editorInsertKeyLabel.Size = new System.Drawing.Size(57, 15);
             this.editorInsertKeyLabel.TabIndex = 13;
-            this.editorInsertKeyLabel.Text = "Insert key";
+            this.editorInsertKeyLabel.Text = "Insert 键控制";
             // 
             // editorBorderLabel
             // 
@@ -852,7 +852,7 @@
             this.editorBorderLabel.Name = "editorBorderLabel";
             this.editorBorderLabel.Size = new System.Drawing.Size(42, 15);
             this.editorBorderLabel.TabIndex = 21;
-            this.editorBorderLabel.Text = "Border";
+            this.editorBorderLabel.Text = "编辑器边框";
             // 
             // editorOpenLinksWithLabel
             // 
@@ -861,15 +861,15 @@
             this.editorOpenLinksWithLabel.Name = "editorOpenLinksWithLabel";
             this.editorOpenLinksWithLabel.Size = new System.Drawing.Size(89, 15);
             this.editorOpenLinksWithLabel.TabIndex = 18;
-            this.editorOpenLinksWithLabel.Text = "Open links with";
+            this.editorOpenLinksWithLabel.Text = "超链接打开方式";
             // 
             // editorInsertKeyComboBox
             // 
             this.editorInsertKeyComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.editorInsertKeyComboBox.FormattingEnabled = true;
             this.editorInsertKeyComboBox.Items.AddRange(new object[] {
-            "Enable",
-            "Disable"});
+            "启用",
+            "禁用"});
             this.editorInsertKeyComboBox.Location = new System.Drawing.Point(178, 181);
             this.editorInsertKeyComboBox.Name = "editorInsertKeyComboBox";
             this.editorInsertKeyComboBox.Size = new System.Drawing.Size(140, 23);
@@ -883,16 +883,16 @@
             this.editorPaddingLeftLabel.Name = "editorPaddingLeftLabel";
             this.editorPaddingLeftLabel.Size = new System.Drawing.Size(73, 15);
             this.editorPaddingLeftLabel.TabIndex = 15;
-            this.editorPaddingLeftLabel.Text = "Padding-left";
+            this.editorPaddingLeftLabel.Text = "左边距";
             // 
             // editorOpenLinksWithComboBox
             // 
             this.editorOpenLinksWithComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.editorOpenLinksWithComboBox.FormattingEnabled = true;
             this.editorOpenLinksWithComboBox.Items.AddRange(new object[] {
-            "LMB Click",
-            "Shift+LMB",
-            "Control+LMB"});
+            "鼠标左键单击",
+            "Shift + 鼠标左键",
+            "Ctrl + 鼠标左键"});
             this.editorOpenLinksWithComboBox.Location = new System.Drawing.Point(178, 151);
             this.editorOpenLinksWithComboBox.Name = "editorOpenLinksWithComboBox";
             this.editorOpenLinksWithComboBox.Size = new System.Drawing.Size(140, 23);
@@ -905,7 +905,7 @@
             this.editorBackColorLabel.Name = "editorBackColorLabel";
             this.editorBackColorLabel.Size = new System.Drawing.Size(103, 23);
             this.editorBackColorLabel.TabIndex = 10;
-            this.editorBackColorLabel.Text = "Background color";
+            this.editorBackColorLabel.Text = "背景颜色";
             this.editorBackColorLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // editorBackColor
@@ -935,9 +935,9 @@
             this.editorBorderComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.editorBorderComboBox.FormattingEnabled = true;
             this.editorBorderComboBox.Items.AddRange(new object[] {
-            "None",
-            "FixedSingle",
-            "Fixed3D"});
+            "无",
+            "单线边框",
+            "3D边框"});
             this.editorBorderComboBox.Location = new System.Drawing.Point(178, 93);
             this.editorBorderComboBox.Name = "editorBorderComboBox";
             this.editorBorderComboBox.Size = new System.Drawing.Size(140, 23);
@@ -972,7 +972,7 @@
             this.encryptionHintLabel.Size = new System.Drawing.Size(309, 70);
             this.encryptionHintLabel.TabIndex = 7;
             this.encryptionHintLabel.Text = resources.GetString("encryptionHintLabel.Text");
-            this.settingsToolTip.SetToolTip(this.encryptionHintLabel, "Left click for permanently hide this hint");
+            this.settingsToolTip.SetToolTip(this.encryptionHintLabel, "左键点击永久隐藏此提示");
             this.encryptionHintLabel.MouseClick += new System.Windows.Forms.MouseEventHandler(this.EncryptionHintLabel_MouseClick);
             // 
             // passwordIterationsTextBox
@@ -1008,7 +1008,7 @@
             this.passwordIterationsLabel.Name = "passwordIterationsLabel";
             this.passwordIterationsLabel.Size = new System.Drawing.Size(109, 23);
             this.passwordIterationsLabel.TabIndex = 6;
-            this.passwordIterationsLabel.Text = "Password iterations";
+            this.passwordIterationsLabel.Text = "密码哈希迭代次数";
             this.passwordIterationsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // keySizeLabel
@@ -1017,7 +1017,7 @@
             this.keySizeLabel.Name = "keySizeLabel";
             this.keySizeLabel.Size = new System.Drawing.Size(48, 23);
             this.keySizeLabel.TabIndex = 1;
-            this.keySizeLabel.Text = "Key size";
+            this.keySizeLabel.Text = "密钥大小";
             this.keySizeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // hashAlgorithmLabel
@@ -1026,7 +1026,7 @@
             this.hashAlgorithmLabel.Name = "hashAlgorithmLabel";
             this.hashAlgorithmLabel.Size = new System.Drawing.Size(92, 23);
             this.hashAlgorithmLabel.TabIndex = 0;
-            this.hashAlgorithmLabel.Text = "Hash algorithm ";
+            this.hashAlgorithmLabel.Text = "哈希派生算法";
             this.hashAlgorithmLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // keySizeComboBox
@@ -1049,10 +1049,10 @@
             this.settingsNavigation.FormattingEnabled = true;
             this.settingsNavigation.ItemHeight = 17;
             this.settingsNavigation.Items.AddRange(new object[] {
-            "General",
-            "Interface",
-            "Editor",
-            "Encryption"});
+            "常规",
+            "界面",
+            "编辑器",
+            "加密"});
             this.settingsNavigation.Location = new System.Drawing.Point(3, 3);
             this.settingsNavigation.Name = "settingsNavigation";
             this.settingsNavigation.Size = new System.Drawing.Size(106, 310);
@@ -1088,7 +1088,7 @@
             this.Name = "SettingsForm";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Settings";
+            this.Text = "设置";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SettingsForm_FormClosed);
             this.Load += new System.EventHandler(this.SettingsForm_Load);
             this.settingsTabControl.ResumeLayout(false);
