@@ -530,8 +530,6 @@ namespace Crypto_Notepad
             // 
             this.helpMainMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.documentationMainMenu,
-            this.checkForUpdatesMainMenu,
-            this.mainMenuSeparator8,
             this.aboutMainMenu});
             this.helpMainMenu.ForeColor = System.Drawing.SystemColors.ControlText;
             this.helpMainMenu.Name = "helpMainMenu";
