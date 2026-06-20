@@ -52,9 +52,10 @@ namespace Crypto_Notepad
             // 
             // generateButton
             // 
+            this.generateButton.AutoSize = true;
             this.generateButton.Location = new System.Drawing.Point(9, 135);
             this.generateButton.Name = "generateButton";
-            this.generateButton.Size = new System.Drawing.Size(75, 23);
+            this.generateButton.Size = new System.Drawing.Size(41, 23);
             this.generateButton.TabIndex = 1;
             this.generateButton.Text = "生成";
             this.generateButton.UseVisualStyleBackColor = true;
@@ -68,16 +69,17 @@ namespace Crypto_Notepad
             this.passwordsListTextBox.Name = "passwordsListTextBox";
             this.passwordsListTextBox.ReadOnly = true;
             this.passwordsListTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.passwordsListTextBox.Size = new System.Drawing.Size(332, 205);
+            this.passwordsListTextBox.Size = new System.Drawing.Size(382, 275);
             this.passwordsListTextBox.TabIndex = 11;
             this.passwordsListTextBox.WordWrap = false;
             this.passwordsListTextBox.TextChanged += new System.EventHandler(this.PasswordsListTextBox_TextChanged);
             // 
             // clearPasswordsListButton
             // 
-            this.clearPasswordsListButton.Location = new System.Drawing.Point(92, 135);
+            this.clearPasswordsListButton.AutoSize = true;
+            this.clearPasswordsListButton.Location = new System.Drawing.Point(100, 135);
             this.clearPasswordsListButton.Name = "clearPasswordsListButton";
-            this.clearPasswordsListButton.Size = new System.Drawing.Size(75, 23);
+            this.clearPasswordsListButton.Size = new System.Drawing.Size(41, 23);
             this.clearPasswordsListButton.TabIndex = 4;
             this.clearPasswordsListButton.Text = "清除";
             this.clearPasswordsListButton.UseVisualStyleBackColor = true;
@@ -145,7 +147,7 @@ namespace Crypto_Notepad
             // 
             // passwordLengthTextBox
             // 
-            this.passwordLengthTextBox.Location = new System.Drawing.Point(216, 6);
+            this.passwordLengthTextBox.Location = new System.Drawing.Point(266, 6);
             this.passwordLengthTextBox.Name = "passwordLengthTextBox";
             this.passwordLengthTextBox.Size = new System.Drawing.Size(125, 22);
             this.passwordLengthTextBox.TabIndex = 5;
@@ -155,7 +157,7 @@ namespace Crypto_Notepad
             // 
             // numberOfStringsTextBox
             // 
-            this.numberOfStringsTextBox.Location = new System.Drawing.Point(216, 34);
+            this.numberOfStringsTextBox.Location = new System.Drawing.Point(266, 34);
             this.numberOfStringsTextBox.Name = "numberOfStringsTextBox";
             this.numberOfStringsTextBox.Size = new System.Drawing.Size(125, 22);
             this.numberOfStringsTextBox.TabIndex = 6;
@@ -165,9 +167,10 @@ namespace Crypto_Notepad
             // 
             // copyAllButton
             // 
-            this.copyAllButton.Location = new System.Drawing.Point(273, 135);
+            this.copyAllButton.AutoSize = true;
+            this.copyAllButton.Location = new System.Drawing.Point(305, 135);
             this.copyAllButton.Name = "copyAllButton";
-            this.copyAllButton.Size = new System.Drawing.Size(68, 23);
+            this.copyAllButton.Size = new System.Drawing.Size(66, 23);
             this.copyAllButton.TabIndex = 3;
             this.copyAllButton.Text = "复制全部";
             this.copyAllButton.UseVisualStyleBackColor = true;
@@ -176,7 +179,8 @@ namespace Crypto_Notepad
             // 
             // copyLastButton
             // 
-            this.copyLastButton.Location = new System.Drawing.Point(175, 135);
+            this.copyLastButton.AutoSize = true;
+            this.copyLastButton.Location = new System.Drawing.Point(190, 135);
             this.copyLastButton.Name = "copyLastButton";
             this.copyLastButton.Size = new System.Drawing.Size(90, 23);
             this.copyLastButton.TabIndex = 2;
@@ -243,7 +247,7 @@ namespace Crypto_Notepad
             this.specialGroupBox.Controls.Add(this.specialCheckBox);
             this.specialGroupBox.Location = new System.Drawing.Point(9, 62);
             this.specialGroupBox.Name = "specialGroupBox";
-            this.specialGroupBox.Size = new System.Drawing.Size(332, 64);
+            this.specialGroupBox.Size = new System.Drawing.Size(382, 64);
             this.specialGroupBox.TabIndex = 12;
             this.specialGroupBox.TabStop = false;
             this.specialGroupBox.Text = "使用字符";
@@ -252,7 +256,7 @@ namespace Crypto_Notepad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(350, 380);
+            this.ClientSize = new System.Drawing.Size(400, 450);
             this.Controls.Add(this.specialGroupBox);
             this.Controls.Add(this.copyLastButton);
             this.Controls.Add(this.copyAllButton);
