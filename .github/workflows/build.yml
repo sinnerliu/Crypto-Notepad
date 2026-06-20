@@ -24,9 +24,9 @@ jobs:
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v2
 
-    # 2.5 安装 .NET Framework 4.6.1 开发者工具包（解决 MSB3644 错误）
-    - name: Install .NET Framework 4.6.1 Developer Pack
-      run: choco install netfx-4.6.1-devpack -y
+    # 2.5 安装 .NET Framework 4.7.2 开发者工具包（解决 MSB3644 错误）
+    - name: Install .NET Framework 4.7.2 Developer Pack
+      run: choco install netfx-4.7.2-devpack -y
 
     # 3. 设置 NuGet 包还原工具
     - name: Setup NuGet
