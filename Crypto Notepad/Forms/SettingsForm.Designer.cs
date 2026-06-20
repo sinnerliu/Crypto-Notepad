@@ -152,7 +152,7 @@ namespace Crypto_Notepad
             this.settingsTabControl.Multiline = true;
             this.settingsTabControl.Name = "settingsTabControl";
             this.settingsTabControl.SelectedIndex = 0;
-            this.settingsTabControl.Size = new System.Drawing.Size(477, 502);
+            this.settingsTabControl.Size = new System.Drawing.Size(477, 499);
             this.settingsTabControl.TabIndex = 4;
             this.settingsTabControl.SelectedIndexChanged += new System.EventHandler(this.SettingsTabControl_SelectedIndexChanged);
             // 
@@ -166,7 +166,7 @@ namespace Crypto_Notepad
             this.generalTabPage.Location = new System.Drawing.Point(4, 24);
             this.generalTabPage.Name = "generalTabPage";
             this.generalTabPage.Padding = new System.Windows.Forms.Padding(6, 6, 6, 3);
-            this.generalTabPage.Size = new System.Drawing.Size(469, 474);
+            this.generalTabPage.Size = new System.Drawing.Size(469, 471);
             this.generalTabPage.TabIndex = 2;
             this.generalTabPage.Text = "gen";
             // 
@@ -378,7 +378,7 @@ namespace Crypto_Notepad
             this.interfaceTabPage.Location = new System.Drawing.Point(4, 24);
             this.interfaceTabPage.Name = "interfaceTabPage";
             this.interfaceTabPage.Padding = new System.Windows.Forms.Padding(6, 6, 6, 3);
-            this.interfaceTabPage.Size = new System.Drawing.Size(469, 474);
+            this.interfaceTabPage.Size = new System.Drawing.Size(469, 471);
             this.interfaceTabPage.TabIndex = 5;
             this.interfaceTabPage.Text = "intf";
             // 
@@ -782,7 +782,7 @@ namespace Crypto_Notepad
             this.editorTabPage.Location = new System.Drawing.Point(4, 24);
             this.editorTabPage.Name = "editorTabPage";
             this.editorTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.editorTabPage.Size = new System.Drawing.Size(469, 474);
+            this.editorTabPage.Size = new System.Drawing.Size(469, 471);
             this.editorTabPage.TabIndex = 0;
             this.editorTabPage.Text = "edt";
             // 
@@ -958,7 +958,7 @@ namespace Crypto_Notepad
             this.encryptionTabPage.Location = new System.Drawing.Point(4, 24);
             this.encryptionTabPage.Name = "encryptionTabPage";
             this.encryptionTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.encryptionTabPage.Size = new System.Drawing.Size(469, 474);
+            this.encryptionTabPage.Size = new System.Drawing.Size(469, 471);
             this.encryptionTabPage.TabIndex = 1;
             this.encryptionTabPage.Text = "enc";
             // 
