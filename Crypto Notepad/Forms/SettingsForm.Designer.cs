@@ -148,11 +148,11 @@ namespace Crypto_Notepad
             this.settingsTabControl.Controls.Add(this.editorTabPage);
             this.settingsTabControl.Controls.Add(this.encryptionTabPage);
             this.settingsTabControl.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.settingsTabControl.Location = new System.Drawing.Point(123, -2);
+            this.settingsTabControl.Location = new System.Drawing.Point(126, 3);
             this.settingsTabControl.Multiline = true;
             this.settingsTabControl.Name = "settingsTabControl";
             this.settingsTabControl.SelectedIndex = 0;
-            this.settingsTabControl.Size = new System.Drawing.Size(477, 499);
+            this.settingsTabControl.Size = new System.Drawing.Size(471, 494);
             this.settingsTabControl.TabIndex = 4;
             this.settingsTabControl.SelectedIndexChanged += new System.EventHandler(this.SettingsTabControl_SelectedIndexChanged);
             // 
@@ -166,7 +166,7 @@ namespace Crypto_Notepad
             this.generalTabPage.Location = new System.Drawing.Point(4, 24);
             this.generalTabPage.Name = "generalTabPage";
             this.generalTabPage.Padding = new System.Windows.Forms.Padding(6, 6, 6, 3);
-            this.generalTabPage.Size = new System.Drawing.Size(469, 471);
+            this.generalTabPage.Size = new System.Drawing.Size(463, 466);
             this.generalTabPage.TabIndex = 2;
             this.generalTabPage.Text = "gen";
             // 
@@ -222,7 +222,7 @@ namespace Crypto_Notepad
             this.lockTimeoutLabel.AutoSize = true;
             this.lockTimeoutLabel.Location = new System.Drawing.Point(12, 48);
             this.lockTimeoutLabel.Name = "lockTimeoutLabel";
-            this.lockTimeoutLabel.Size = new System.Drawing.Size(125, 15);
+            this.lockTimeoutLabel.Size = new System.Drawing.Size(230, 15);
             this.lockTimeoutLabel.TabIndex = 7;
             this.lockTimeoutLabel.Text = "如果程序无操作达到";
             // 
@@ -378,7 +378,7 @@ namespace Crypto_Notepad
             this.interfaceTabPage.Location = new System.Drawing.Point(4, 24);
             this.interfaceTabPage.Name = "interfaceTabPage";
             this.interfaceTabPage.Padding = new System.Windows.Forms.Padding(6, 6, 6, 3);
-            this.interfaceTabPage.Size = new System.Drawing.Size(469, 471);
+            this.interfaceTabPage.Size = new System.Drawing.Size(463, 466);
             this.interfaceTabPage.TabIndex = 5;
             this.interfaceTabPage.Text = "intf";
             // 
@@ -782,7 +782,7 @@ namespace Crypto_Notepad
             this.editorTabPage.Location = new System.Drawing.Point(4, 24);
             this.editorTabPage.Name = "editorTabPage";
             this.editorTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.editorTabPage.Size = new System.Drawing.Size(469, 471);
+            this.editorTabPage.Size = new System.Drawing.Size(463, 466);
             this.editorTabPage.TabIndex = 0;
             this.editorTabPage.Text = "edt";
             // 
@@ -958,7 +958,7 @@ namespace Crypto_Notepad
             this.encryptionTabPage.Location = new System.Drawing.Point(4, 24);
             this.encryptionTabPage.Name = "encryptionTabPage";
             this.encryptionTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.encryptionTabPage.Size = new System.Drawing.Size(469, 471);
+            this.encryptionTabPage.Size = new System.Drawing.Size(463, 466);
             this.encryptionTabPage.TabIndex = 1;
             this.encryptionTabPage.Text = "enc";
             // 
@@ -1047,6 +1047,7 @@ namespace Crypto_Notepad
             // 
             this.settingsNavigation.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.settingsNavigation.FormattingEnabled = true;
+            this.settingsNavigation.IntegralHeight = false;
             this.settingsNavigation.ItemHeight = 17;
             this.settingsNavigation.Items.AddRange(new object[] {
             "常规",
