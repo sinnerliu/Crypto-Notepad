@@ -1045,9 +1045,9 @@ namespace Crypto_Notepad
             MenuIcons(settings.menuIcons);
             ToolbarIcons(settings.oldToolbarIcons);
             ShortcutKeys(settings.shortcutKeys);
-            statusPanelReadonlyLabel.Text = "Readonly: " + readOnlyMainMenu.Checked.ToString();
-            statusPanelWordwrapLabel.Text = "Word Wrap: " + wordWrapMainMenu.Checked.ToString();
-            statusPanelPasteboardLabel.Text = "Paste Board: " + pasteBoardMainMenu.Checked.ToString();
+            statusPanelReadonlyLabel.Text = "只读: " + (readOnlyMainMenu.Checked ? "是" : "否");
+            statusPanelWordwrapLabel.Text = "自动换行: " + (wordWrapMainMenu.Checked ? "是" : "否");
+            statusPanelPasteboardLabel.Text = "剪切板: " + (pasteBoardMainMenu.Checked ? "是" : "否");
             if (args.Length == 2) /*drag & drop to executable*/
             {
                 OpenAsotiations();
@@ -1408,9 +1408,9 @@ namespace Crypto_Notepad
             PublicVar.openFileName = "";
             filePath = "";
             Text = PublicVar.appName;
-            statusPanelModifiedLabel.Text = "Modified";
+            statusPanelModifiedLabel.Text = "修改时间";
             statusPanelModifiedLabel.ToolTipText = null;
-            statusPanelSizeLabel.Text = "Size";
+            statusPanelSizeLabel.Text = "大小";
         }
 
         private void OpenFileLocationMainMenu_Click(object sender, EventArgs e)
@@ -1442,8 +1442,8 @@ namespace Crypto_Notepad
                         PublicVar.openFileName = "";
                         Text = PublicVar.appName;
                         StatusPanelTextInfo();
-                        statusPanelModifiedLabel.Text = "Modified";
-                        statusPanelSizeLabel.Text = "Size";
+                        statusPanelModifiedLabel.Text = "修改时间";
+                        statusPanelSizeLabel.Text = "大小";
                         statusPanelModifiedLabel.ToolTipText = null;
                     }
                 }
@@ -1622,7 +1622,7 @@ namespace Crypto_Notepad
         private void ReadOnlyMainMenu_Click(object sender, EventArgs e)
         {
             richTextBox.ReadOnly = readOnlyMainMenu.Checked;
-            statusPanelReadonlyLabel.Text = "Readonly: " + readOnlyMainMenu.Checked.ToString();
+            statusPanelReadonlyLabel.Text = "只读: " + (readOnlyMainMenu.Checked ? "是" : "否");
         }
 
         private void InsertDateTimeMainMenu_Click(object sender, EventArgs e)
@@ -1647,7 +1647,7 @@ namespace Crypto_Notepad
             settings.menuWrap = wordWrapMainMenu.Checked;
             settings.editorWrap = richTextBox.WordWrap;
             settings.Save();
-            statusPanelWordwrapLabel.Text = "Word Wrap: " + wordWrapMainMenu.Checked.ToString();
+            statusPanelWordwrapLabel.Text = "自动换行: " + (wordWrapMainMenu.Checked ? "是" : "否");
         }
 
         private void ClearMainMenu_Click(object sender, EventArgs e)
@@ -1753,12 +1753,12 @@ namespace Crypto_Notepad
             {
                 Clipboard.Clear();
                 pasteBoardTimer.Start();
-                statusPanelPasteboardLabel.Text = "Paste Board: " + pasteBoardMainMenu.Checked.ToString();
+                statusPanelPasteboardLabel.Text = "剪切板: " + (pasteBoardMainMenu.Checked ? "是" : "否");
             }
             else
             {
                 pasteBoardTimer.Stop();
-                statusPanelPasteboardLabel.Text = "Paste Board: " + pasteBoardMainMenu.Checked.ToString();
+                statusPanelPasteboardLabel.Text = "剪切板: " + (pasteBoardMainMenu.Checked ? "是" : "否");
             }
         }
         /*Paste Board*/
@@ -2151,9 +2151,9 @@ namespace Crypto_Notepad
                 mainMenu.Enabled = false;
                 richTextBox.Clear();
                 StatusPanelTextInfo();
-                statusPanelModifiedLabel.Text = "Modified";
+                statusPanelModifiedLabel.Text = "修改时间";
                 statusPanelModifiedLabel.ToolTipText = null;
-                statusPanelSizeLabel.Text = "Size";
+                statusPanelSizeLabel.Text = "大小";
                 fileLockedKeyTextBox.Focus();
             }
             else

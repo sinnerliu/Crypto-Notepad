@@ -1103,7 +1103,7 @@ namespace Crypto_Notepad
             this.statusPanelLengthLabel.Name = "statusPanelLengthLabel";
             this.statusPanelLengthLabel.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.statusPanelLengthLabel.Size = new System.Drawing.Size(64, 17);
-            this.statusPanelLengthLabel.Text = "Length: 0";
+            this.statusPanelLengthLabel.Text = "字数: 0";
             // 
             // statusPanelLinesLabel
             // 
@@ -1114,7 +1114,7 @@ namespace Crypto_Notepad
             this.statusPanelLinesLabel.Name = "statusPanelLinesLabel";
             this.statusPanelLinesLabel.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.statusPanelLinesLabel.Size = new System.Drawing.Size(54, 17);
-            this.statusPanelLinesLabel.Text = "Lines: 1";
+            this.statusPanelLinesLabel.Text = "行数: 1";
             // 
             // statusPanelModifiedLabel
             // 
@@ -1124,7 +1124,7 @@ namespace Crypto_Notepad
             this.statusPanelModifiedLabel.Name = "statusPanelModifiedLabel";
             this.statusPanelModifiedLabel.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.statusPanelModifiedLabel.Size = new System.Drawing.Size(63, 17);
-            this.statusPanelModifiedLabel.Text = "Modified";
+            this.statusPanelModifiedLabel.Text = "修改时间";
             // 
             // statusPanelSizeLabel
             // 
@@ -1135,7 +1135,7 @@ namespace Crypto_Notepad
             this.statusPanelSizeLabel.Name = "statusPanelSizeLabel";
             this.statusPanelSizeLabel.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.statusPanelSizeLabel.Size = new System.Drawing.Size(36, 17);
-            this.statusPanelSizeLabel.Text = "Size";
+            this.statusPanelSizeLabel.Text = "大小";
             this.statusPanelSizeLabel.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
             // 
             // statusPanelReadonlyLabel
@@ -1146,7 +1146,7 @@ namespace Crypto_Notepad
             this.statusPanelReadonlyLabel.Name = "statusPanelReadonlyLabel";
             this.statusPanelReadonlyLabel.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.statusPanelReadonlyLabel.Size = new System.Drawing.Size(64, 17);
-            this.statusPanelReadonlyLabel.Text = "Readonly";
+            this.statusPanelReadonlyLabel.Text = "只读";
             // 
             // statusPanelWordwrapLabel
             // 
@@ -1156,7 +1156,7 @@ namespace Crypto_Notepad
             this.statusPanelWordwrapLabel.Name = "statusPanelWordwrapLabel";
             this.statusPanelWordwrapLabel.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.statusPanelWordwrapLabel.Size = new System.Drawing.Size(76, 17);
-            this.statusPanelWordwrapLabel.Text = "Word Wrap";
+            this.statusPanelWordwrapLabel.Text = "自动换行";
             // 
             // statusPanelPasteboardLabel
             // 
@@ -1166,7 +1166,7 @@ namespace Crypto_Notepad
             this.statusPanelPasteboardLabel.Name = "statusPanelPasteboardLabel";
             this.statusPanelPasteboardLabel.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.statusPanelPasteboardLabel.Size = new System.Drawing.Size(76, 17);
-            this.statusPanelPasteboardLabel.Text = "Paste Board";
+            this.statusPanelPasteboardLabel.Text = "剪切板";
             this.statusPanelPasteboardLabel.Visible = false;
             // 
             // statusPanelClipboardProgressBar
