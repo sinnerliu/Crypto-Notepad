@@ -1255,7 +1255,7 @@ namespace Crypto_Notepad
             this.fileLockedPanel.ForeColor = System.Drawing.Color.Azure;
             this.fileLockedPanel.Location = new System.Drawing.Point(160, 71);
             this.fileLockedPanel.Name = "fileLockedPanel";
-            this.fileLockedPanel.Size = new System.Drawing.Size(261, 91);
+            this.fileLockedPanel.Size = new System.Drawing.Size(340, 120);
             this.fileLockedPanel.TabIndex = 20;
             this.fileLockedPanel.Visible = false;
             this.fileLockedPanel.VisibleChanged += new System.EventHandler(this.FileLockedPanel_VisibleChanged);
@@ -1269,7 +1269,7 @@ namespace Crypto_Notepad
             this.fileLockedCloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.fileLockedCloseButton.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.fileLockedCloseButton.ForeColor = System.Drawing.Color.DimGray;
-            this.fileLockedCloseButton.Location = new System.Drawing.Point(239, -2);
+            this.fileLockedCloseButton.Location = new System.Drawing.Point(315, -2);
             this.fileLockedCloseButton.Name = "fileLockedCloseButton";
             this.fileLockedCloseButton.Size = new System.Drawing.Size(23, 23);
             this.fileLockedCloseButton.TabIndex = 11;
@@ -1284,23 +1284,23 @@ namespace Crypto_Notepad
             // 
             this.fileLockedOkButton.Enabled = false;
             this.fileLockedOkButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.fileLockedOkButton.Location = new System.Drawing.Point(6, 60);
+            this.fileLockedOkButton.Location = new System.Drawing.Point(15, 82);
             this.fileLockedOkButton.Name = "fileLockedOkButton";
-            this.fileLockedOkButton.Size = new System.Drawing.Size(57, 23);
+            this.fileLockedOkButton.Size = new System.Drawing.Size(75, 25);
             this.fileLockedOkButton.TabIndex = 10;
-            this.fileLockedOkButton.Text = "OK";
+            this.fileLockedOkButton.Text = "确定";
             this.fileLockedOkButton.UseVisualStyleBackColor = true;
             this.fileLockedOkButton.Click += new System.EventHandler(this.FileLockedOkButton_Click);
             // 
             // fileLockedKeyTextBox
             // 
-            this.fileLockedKeyTextBox.Location = new System.Drawing.Point(6, 34);
+            this.fileLockedKeyTextBox.Location = new System.Drawing.Point(15, 45);
             this.fileLockedKeyTextBox.Name = "fileLockedKeyTextBox";
-            this.fileLockedKeyTextBox.Placeholder = "Password";
+            this.fileLockedKeyTextBox.Placeholder = "密码";
             this.fileLockedKeyTextBox.PlaceholderActiveForeColor = System.Drawing.Color.DarkGray;
             this.fileLockedKeyTextBox.PlaceholderFont = new System.Drawing.Font("Segoe UI", 8.25F);
             this.fileLockedKeyTextBox.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.fileLockedKeyTextBox.Size = new System.Drawing.Size(231, 22);
+            this.fileLockedKeyTextBox.Size = new System.Drawing.Size(287, 22);
             this.fileLockedKeyTextBox.TabIndex = 8;
             this.fileLockedKeyTextBox.UseSystemPasswordChar = true;
             this.fileLockedKeyTextBox.TextChanged += new System.EventHandler(this.FileLockedKeyTextBox_TextChanged);
@@ -1312,7 +1312,7 @@ namespace Crypto_Notepad
             this.fileLockedShowKey.Cursor = System.Windows.Forms.Cursors.Hand;
             this.fileLockedShowKey.Image = global::Crypto_Notepad.Properties.Resources.eye_half;
             this.fileLockedShowKey.InitialImage = global::Crypto_Notepad.Properties.Resources.eye_half;
-            this.fileLockedShowKey.Location = new System.Drawing.Point(239, 34);
+            this.fileLockedShowKey.Location = new System.Drawing.Point(307, 45);
             this.fileLockedShowKey.Name = "fileLockedShowKey";
             this.fileLockedShowKey.Size = new System.Drawing.Size(18, 22);
             this.fileLockedShowKey.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -1325,11 +1325,11 @@ namespace Crypto_Notepad
             this.fileLockedLabel.AutoEllipsis = true;
             this.fileLockedLabel.AutoSize = true;
             this.fileLockedLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.fileLockedLabel.Location = new System.Drawing.Point(95, 3);
+            this.fileLockedLabel.Location = new System.Drawing.Point(134, 5);
             this.fileLockedLabel.Name = "fileLockedLabel";
             this.fileLockedLabel.Size = new System.Drawing.Size(71, 17);
             this.fileLockedLabel.TabIndex = 7;
-            this.fileLockedLabel.Text = "File locked";
+            this.fileLockedLabel.Text = "文件已锁定";
             // 
             // toolTip
             // 
