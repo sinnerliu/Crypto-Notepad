@@ -1018,22 +1018,6 @@ namespace Crypto_Notepad
             Visible = true;
             richTextBox.SetInnerMargins(Convert.ToInt32(settings.editorPaddingLeft), 0, 0, 0);
             richTextBox.Modified = false;
-
-            if (!File.Exists(AppDomain.CurrentDomain.BaseDirectory + "Crypto Notepad.settings"))
-            {
-                if (Visible)
-                {
-                    PublicVar.messageBoxCenterParent = true;
-                }
-                using (new CenterWinDialog(this))
-                {
-                    DialogResult res = MessageBox.Show(this, "是否在启动时启用自动检查更新？\n此设置稍后可以在“设置”中修改。", PublicVar.appName, MessageBoxButtons.YesNo, MessageBoxIcon.Information);
-                    if (res == DialogResult.Yes)
-                    {
-                        settings.autoCheckUpdate = true;
-                    }
-                }
-            }
             WindowState = settings.windowState;
         }
 
