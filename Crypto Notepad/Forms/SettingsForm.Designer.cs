@@ -219,7 +219,7 @@ namespace Crypto_Notepad
             // 
             // lockTimeoutLabel
             // 
-            this.lockTimeoutLabel.AutoSize = true;
+            this.lockTimeoutLabel.AutoSize = false;
             this.lockTimeoutLabel.Location = new System.Drawing.Point(12, 48);
             this.lockTimeoutLabel.Name = "lockTimeoutLabel";
             this.lockTimeoutLabel.Size = new System.Drawing.Size(230, 15);
