@@ -40,10 +40,18 @@ jobs:
     - name: Build Solution
       run: msbuild "Crypto Notepad.sln" /t:Rebuild /p:Configuration=Release
 
+    # 5.5 获取当前日期与 Git Commit 短 ID
+    - name: Get Date and Short SHA
+      run: |
+        $date = Get-Date -Format "yyyyMMdd"
+        $sha = "${{ github.sha }}".Substring(0, 7)
+        echo "ZIP_NAME=Crypto-Notepad-Release-$date-$sha" >> $env:GITHUB_ENV
+      shell: powershell
+
     # 6. 将编译生成的单文件 exe 打包上传到 GitHub Actions 产物中
     - name: Upload Build Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: Crypto-Notepad-Release
+        name: ${{ env.ZIP_NAME }}
         path: |
           Crypto Notepad/bin/Release/Crypto Notepad.exe
