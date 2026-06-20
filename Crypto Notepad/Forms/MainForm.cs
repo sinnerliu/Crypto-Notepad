@@ -585,10 +585,16 @@ namespace Crypto_Notepad
             }
             if (settings.windowLocation.ToString() != "{X=0,Y=0}")
             {
+                StartPosition = FormStartPosition.Manual;
                 Location = settings.windowLocation;
+            }
+            else
+            {
+                StartPosition = FormStartPosition.CenterScreen;
             }
             if (!Methods.IsOnScreen(this))
             {
+                StartPosition = FormStartPosition.Manual;
                 Location = new Point(1, 1);
             }
 

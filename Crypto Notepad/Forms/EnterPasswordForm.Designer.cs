@@ -112,7 +112,7 @@ namespace Crypto_Notepad
             this.showKeyPictureBox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.showKeyPictureBox.Image = global::Crypto_Notepad.Properties.Resources.eye_half;
             this.showKeyPictureBox.InitialImage = global::Crypto_Notepad.Properties.Resources.eye_half;
-            this.showKeyPictureBox.Location = new System.Drawing.Point(356, 52);
+            this.showKeyPictureBox.Location = new System.Drawing.Point(356, 53);
             this.showKeyPictureBox.Name = "showKeyPictureBox";
             this.showKeyPictureBox.Size = new System.Drawing.Size(19, 23);
             this.showKeyPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;

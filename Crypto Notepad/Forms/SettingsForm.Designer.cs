@@ -187,7 +187,7 @@ namespace Crypto_Notepad
             // autoLockMinutesLabel
             // 
             this.autoLockMinutesLabel.AutoSize = true;
-            this.autoLockMinutesLabel.Location = new System.Drawing.Point(193, 48);
+            this.autoLockMinutesLabel.Location = new System.Drawing.Point(215, 48);
             this.autoLockMinutesLabel.Name = "autoLockMinutesLabel";
             this.autoLockMinutesLabel.Size = new System.Drawing.Size(50, 15);
             this.autoLockMinutesLabel.TabIndex = 0;
@@ -206,7 +206,7 @@ namespace Crypto_Notepad
             // 
             // lockTimeoutTextBox
             // 
-            this.lockTimeoutTextBox.Location = new System.Drawing.Point(143, 45);
+            this.lockTimeoutTextBox.Location = new System.Drawing.Point(155, 45);
             this.lockTimeoutTextBox.Name = "lockTimeoutTextBox";
             this.lockTimeoutTextBox.Placeholder = "";
             this.lockTimeoutTextBox.PlaceholderActiveForeColor = System.Drawing.Color.DarkGray;

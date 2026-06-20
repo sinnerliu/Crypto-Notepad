@@ -1312,7 +1312,7 @@ namespace Crypto_Notepad
             this.fileLockedShowKey.Cursor = System.Windows.Forms.Cursors.Hand;
             this.fileLockedShowKey.Image = global::Crypto_Notepad.Properties.Resources.eye_half;
             this.fileLockedShowKey.InitialImage = global::Crypto_Notepad.Properties.Resources.eye_half;
-            this.fileLockedShowKey.Location = new System.Drawing.Point(307, 45);
+            this.fileLockedShowKey.Location = new System.Drawing.Point(307, 46);
             this.fileLockedShowKey.Name = "fileLockedShowKey";
             this.fileLockedShowKey.Size = new System.Drawing.Size(18, 22);
             this.fileLockedShowKey.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;

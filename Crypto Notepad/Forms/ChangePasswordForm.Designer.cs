@@ -89,7 +89,7 @@ namespace Crypto_Notepad
             this.showNewKeyPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.showNewKeyPictureBox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.showNewKeyPictureBox.Image = global::Crypto_Notepad.Properties.Resources.eye_half;
-            this.showNewKeyPictureBox.Location = new System.Drawing.Point(269, 39);
+            this.showNewKeyPictureBox.Location = new System.Drawing.Point(269, 40);
             this.showNewKeyPictureBox.Name = "showNewKeyPictureBox";
             this.showNewKeyPictureBox.Size = new System.Drawing.Size(19, 23);
             this.showNewKeyPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -102,7 +102,7 @@ namespace Crypto_Notepad
             this.showOldKeyPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.showOldKeyPictureBox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.showOldKeyPictureBox.Image = global::Crypto_Notepad.Properties.Resources.eye_half;
-            this.showOldKeyPictureBox.Location = new System.Drawing.Point(269, 14);
+            this.showOldKeyPictureBox.Location = new System.Drawing.Point(269, 15);
             this.showOldKeyPictureBox.Name = "showOldKeyPictureBox";
             this.showOldKeyPictureBox.Size = new System.Drawing.Size(19, 23);
             this.showOldKeyPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
