@@ -148,11 +148,11 @@ namespace Crypto_Notepad
             this.settingsTabControl.Controls.Add(this.editorTabPage);
             this.settingsTabControl.Controls.Add(this.encryptionTabPage);
             this.settingsTabControl.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.settingsTabControl.Location = new System.Drawing.Point(109, -2);
+            this.settingsTabControl.Location = new System.Drawing.Point(123, -2);
             this.settingsTabControl.Multiline = true;
             this.settingsTabControl.Name = "settingsTabControl";
             this.settingsTabControl.SelectedIndex = 0;
-            this.settingsTabControl.Size = new System.Drawing.Size(334, 319);
+            this.settingsTabControl.Size = new System.Drawing.Size(477, 502);
             this.settingsTabControl.TabIndex = 4;
             this.settingsTabControl.SelectedIndexChanged += new System.EventHandler(this.SettingsTabControl_SelectedIndexChanged);
             // 
@@ -166,7 +166,7 @@ namespace Crypto_Notepad
             this.generalTabPage.Location = new System.Drawing.Point(4, 24);
             this.generalTabPage.Name = "generalTabPage";
             this.generalTabPage.Padding = new System.Windows.Forms.Padding(6, 6, 6, 3);
-            this.generalTabPage.Size = new System.Drawing.Size(326, 291);
+            this.generalTabPage.Size = new System.Drawing.Size(469, 474);
             this.generalTabPage.TabIndex = 2;
             this.generalTabPage.Text = "gen";
             // 
@@ -378,7 +378,7 @@ namespace Crypto_Notepad
             this.interfaceTabPage.Location = new System.Drawing.Point(4, 24);
             this.interfaceTabPage.Name = "interfaceTabPage";
             this.interfaceTabPage.Padding = new System.Windows.Forms.Padding(6, 6, 6, 3);
-            this.interfaceTabPage.Size = new System.Drawing.Size(326, 291);
+            this.interfaceTabPage.Size = new System.Drawing.Size(469, 474);
             this.interfaceTabPage.TabIndex = 5;
             this.interfaceTabPage.Text = "intf";
             // 
@@ -782,7 +782,7 @@ namespace Crypto_Notepad
             this.editorTabPage.Location = new System.Drawing.Point(4, 24);
             this.editorTabPage.Name = "editorTabPage";
             this.editorTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.editorTabPage.Size = new System.Drawing.Size(326, 291);
+            this.editorTabPage.Size = new System.Drawing.Size(469, 474);
             this.editorTabPage.TabIndex = 0;
             this.editorTabPage.Text = "edt";
             // 
@@ -958,7 +958,7 @@ namespace Crypto_Notepad
             this.encryptionTabPage.Location = new System.Drawing.Point(4, 24);
             this.encryptionTabPage.Name = "encryptionTabPage";
             this.encryptionTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.encryptionTabPage.Size = new System.Drawing.Size(326, 291);
+            this.encryptionTabPage.Size = new System.Drawing.Size(469, 474);
             this.encryptionTabPage.TabIndex = 1;
             this.encryptionTabPage.Text = "enc";
             // 
@@ -1055,7 +1055,7 @@ namespace Crypto_Notepad
             "加密"});
             this.settingsNavigation.Location = new System.Drawing.Point(3, 3);
             this.settingsNavigation.Name = "settingsNavigation";
-            this.settingsNavigation.Size = new System.Drawing.Size(106, 310);
+            this.settingsNavigation.Size = new System.Drawing.Size(120, 494);
             this.settingsNavigation.TabIndex = 6;
             this.settingsNavigation.TabStop = false;
             this.settingsNavigation.Click += new System.EventHandler(this.SettingsNavigation_Click);
@@ -1078,7 +1078,7 @@ namespace Crypto_Notepad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(444, 317);
+            this.ClientSize = new System.Drawing.Size(600, 500);
             this.Controls.Add(this.settingsTabControl);
             this.Controls.Add(this.settingsNavigation);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
