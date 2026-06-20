@@ -410,7 +410,7 @@ namespace Crypto_Notepad
             this.statusPanelLabelsGroupBox.Controls.Add(this.statusPanelLengthCheckBox);
             this.statusPanelLabelsGroupBox.Location = new System.Drawing.Point(9, 101);
             this.statusPanelLabelsGroupBox.Name = "statusPanelLabelsGroupBox";
-            this.statusPanelLabelsGroupBox.Size = new System.Drawing.Size(277, 97);
+            this.statusPanelLabelsGroupBox.Size = new System.Drawing.Size(451, 97);
             this.statusPanelLabelsGroupBox.TabIndex = 9;
             this.statusPanelLabelsGroupBox.TabStop = false;
             this.statusPanelLabelsGroupBox.Text = "状态栏显示项目";
@@ -418,7 +418,7 @@ namespace Crypto_Notepad
             // statusPanelPasteboardCheckBox
             // 
             this.statusPanelPasteboardCheckBox.AutoSize = true;
-            this.statusPanelPasteboardCheckBox.Location = new System.Drawing.Point(6, 72);
+            this.statusPanelPasteboardCheckBox.Location = new System.Drawing.Point(15, 72);
             this.statusPanelPasteboardCheckBox.Name = "statusPanelPasteboardCheckBox";
             this.statusPanelPasteboardCheckBox.Size = new System.Drawing.Size(88, 19);
             this.statusPanelPasteboardCheckBox.TabIndex = 10;
@@ -429,7 +429,7 @@ namespace Crypto_Notepad
             // statusPanelClipboardCheckBox
             // 
             this.statusPanelClipboardCheckBox.AutoSize = true;
-            this.statusPanelClipboardCheckBox.Location = new System.Drawing.Point(185, 47);
+            this.statusPanelClipboardCheckBox.Location = new System.Drawing.Point(160, 72);
             this.statusPanelClipboardCheckBox.Name = "statusPanelClipboardCheckBox";
             this.statusPanelClipboardCheckBox.Size = new System.Drawing.Size(78, 19);
             this.statusPanelClipboardCheckBox.TabIndex = 14;
@@ -440,7 +440,7 @@ namespace Crypto_Notepad
             // statusPanelWordwrapCheckBox
             // 
             this.statusPanelWordwrapCheckBox.AutoSize = true;
-            this.statusPanelWordwrapCheckBox.Location = new System.Drawing.Point(93, 47);
+            this.statusPanelWordwrapCheckBox.Location = new System.Drawing.Point(160, 47);
             this.statusPanelWordwrapCheckBox.Name = "statusPanelWordwrapCheckBox";
             this.statusPanelWordwrapCheckBox.Size = new System.Drawing.Size(86, 19);
             this.statusPanelWordwrapCheckBox.TabIndex = 13;
@@ -451,7 +451,7 @@ namespace Crypto_Notepad
             // statusPanelReadonlyCheckBox
             // 
             this.statusPanelReadonlyCheckBox.AutoSize = true;
-            this.statusPanelReadonlyCheckBox.Location = new System.Drawing.Point(6, 47);
+            this.statusPanelReadonlyCheckBox.Location = new System.Drawing.Point(15, 47);
             this.statusPanelReadonlyCheckBox.Name = "statusPanelReadonlyCheckBox";
             this.statusPanelReadonlyCheckBox.Size = new System.Drawing.Size(75, 19);
             this.statusPanelReadonlyCheckBox.TabIndex = 10;
@@ -462,7 +462,7 @@ namespace Crypto_Notepad
             // statusPanelSizeCheckBox
             // 
             this.statusPanelSizeCheckBox.AutoSize = true;
-            this.statusPanelSizeCheckBox.Location = new System.Drawing.Point(214, 22);
+            this.statusPanelSizeCheckBox.Location = new System.Drawing.Point(305, 47);
             this.statusPanelSizeCheckBox.Name = "statusPanelSizeCheckBox";
             this.statusPanelSizeCheckBox.Size = new System.Drawing.Size(46, 19);
             this.statusPanelSizeCheckBox.TabIndex = 12;
@@ -473,7 +473,7 @@ namespace Crypto_Notepad
             // statusPanelLinesCheckBox
             // 
             this.statusPanelLinesCheckBox.AutoSize = true;
-            this.statusPanelLinesCheckBox.Location = new System.Drawing.Point(75, 22);
+            this.statusPanelLinesCheckBox.Location = new System.Drawing.Point(160, 22);
             this.statusPanelLinesCheckBox.Name = "statusPanelLinesCheckBox";
             this.statusPanelLinesCheckBox.Size = new System.Drawing.Size(53, 19);
             this.statusPanelLinesCheckBox.TabIndex = 10;
@@ -484,7 +484,7 @@ namespace Crypto_Notepad
             // statusPanelModifiedCheckBox
             // 
             this.statusPanelModifiedCheckBox.AutoSize = true;
-            this.statusPanelModifiedCheckBox.Location = new System.Drawing.Point(134, 22);
+            this.statusPanelModifiedCheckBox.Location = new System.Drawing.Point(305, 22);
             this.statusPanelModifiedCheckBox.Name = "statusPanelModifiedCheckBox";
             this.statusPanelModifiedCheckBox.Size = new System.Drawing.Size(74, 19);
             this.statusPanelModifiedCheckBox.TabIndex = 11;
@@ -495,7 +495,7 @@ namespace Crypto_Notepad
             // statusPanelLengthCheckBox
             // 
             this.statusPanelLengthCheckBox.AutoSize = true;
-            this.statusPanelLengthCheckBox.Location = new System.Drawing.Point(6, 21);
+            this.statusPanelLengthCheckBox.Location = new System.Drawing.Point(15, 22);
             this.statusPanelLengthCheckBox.Name = "statusPanelLengthCheckBox";
             this.statusPanelLengthCheckBox.Size = new System.Drawing.Size(63, 19);
             this.statusPanelLengthCheckBox.TabIndex = 9;
@@ -539,7 +539,7 @@ namespace Crypto_Notepad
             this.statusPanelBackColor.Cursor = System.Windows.Forms.Cursors.Hand;
             this.statusPanelBackColor.Location = new System.Drawing.Point(145, 16);
             this.statusPanelBackColor.Name = "statusPanelBackColor";
-            this.statusPanelBackColor.Size = new System.Drawing.Size(141, 23);
+            this.statusPanelBackColor.Size = new System.Drawing.Size(280, 23);
             this.statusPanelBackColor.TabIndex = 3;
             this.statusPanelBackColor.Click += new System.EventHandler(this.StatusPanelBackColor_Click);
             // 
@@ -550,7 +550,7 @@ namespace Crypto_Notepad
             this.statusPanelFontColor.Cursor = System.Windows.Forms.Cursors.Hand;
             this.statusPanelFontColor.Location = new System.Drawing.Point(145, 45);
             this.statusPanelFontColor.Name = "statusPanelFontColor";
-            this.statusPanelFontColor.Size = new System.Drawing.Size(141, 23);
+            this.statusPanelFontColor.Size = new System.Drawing.Size(280, 23);
             this.statusPanelFontColor.TabIndex = 3;
             this.statusPanelFontColor.Click += new System.EventHandler(this.StatusPanelFontColor_Click);
             // 
@@ -579,7 +579,7 @@ namespace Crypto_Notepad
             "单线"});
             this.searchBorderComboBox.Location = new System.Drawing.Point(145, 74);
             this.searchBorderComboBox.Name = "searchBorderComboBox";
-            this.searchBorderComboBox.Size = new System.Drawing.Size(141, 23);
+            this.searchBorderComboBox.Size = new System.Drawing.Size(280, 23);
             this.searchBorderComboBox.TabIndex = 7;
             this.searchBorderComboBox.DropDownClosed += new System.EventHandler(this.SearchBorderComboBox_DropDownClosed);
             // 
@@ -617,7 +617,7 @@ namespace Crypto_Notepad
             this.searchFontColor.Cursor = System.Windows.Forms.Cursors.Hand;
             this.searchFontColor.Location = new System.Drawing.Point(145, 45);
             this.searchFontColor.Name = "searchFontColor";
-            this.searchFontColor.Size = new System.Drawing.Size(141, 23);
+            this.searchFontColor.Size = new System.Drawing.Size(280, 23);
             this.searchFontColor.TabIndex = 3;
             this.searchFontColor.Click += new System.EventHandler(this.SearchFontColor_Click);
             // 
@@ -628,7 +628,7 @@ namespace Crypto_Notepad
             this.searchBackColor.Cursor = System.Windows.Forms.Cursors.Hand;
             this.searchBackColor.Location = new System.Drawing.Point(145, 16);
             this.searchBackColor.Name = "searchBackColor";
-            this.searchBackColor.Size = new System.Drawing.Size(141, 23);
+            this.searchBackColor.Size = new System.Drawing.Size(280, 23);
             this.searchBackColor.TabIndex = 2;
             this.searchBackColor.Click += new System.EventHandler(this.SearchBackColor_Click);
             // 
@@ -651,7 +651,7 @@ namespace Crypto_Notepad
             // toolbarCloseButtonCheckBox
             // 
             this.toolbarCloseButtonCheckBox.AutoSize = true;
-            this.toolbarCloseButtonCheckBox.Location = new System.Drawing.Point(91, 72);
+            this.toolbarCloseButtonCheckBox.Location = new System.Drawing.Point(160, 72);
             this.toolbarCloseButtonCheckBox.Name = "toolbarCloseButtonCheckBox";
             this.toolbarCloseButtonCheckBox.Size = new System.Drawing.Size(94, 19);
             this.toolbarCloseButtonCheckBox.TabIndex = 6;
@@ -662,7 +662,7 @@ namespace Crypto_Notepad
             // toolbarBorderCheckBox
             // 
             this.toolbarBorderCheckBox.AutoSize = true;
-            this.toolbarBorderCheckBox.Location = new System.Drawing.Point(91, 49);
+            this.toolbarBorderCheckBox.Location = new System.Drawing.Point(160, 49);
             this.toolbarBorderCheckBox.Name = "toolbarBorderCheckBox";
             this.toolbarBorderCheckBox.Size = new System.Drawing.Size(61, 19);
             this.toolbarBorderCheckBox.TabIndex = 4;
@@ -697,7 +697,7 @@ namespace Crypto_Notepad
             this.toolbarBackColor.Cursor = System.Windows.Forms.Cursors.Hand;
             this.toolbarBackColor.Location = new System.Drawing.Point(145, 16);
             this.toolbarBackColor.Name = "toolbarBackColor";
-            this.toolbarBackColor.Size = new System.Drawing.Size(141, 23);
+            this.toolbarBackColor.Size = new System.Drawing.Size(280, 23);
             this.toolbarBackColor.TabIndex = 11;
             this.toolbarBackColor.Click += new System.EventHandler(this.ToolbarBackColor_Click);
             // 
@@ -728,7 +728,7 @@ namespace Crypto_Notepad
             // shortcutKeysCheckBox
             // 
             this.shortcutKeysCheckBox.AutoSize = true;
-            this.shortcutKeysCheckBox.Location = new System.Drawing.Point(166, 22);
+            this.shortcutKeysCheckBox.Location = new System.Drawing.Point(310, 22);
             this.shortcutKeysCheckBox.Name = "shortcutKeysCheckBox";
             this.shortcutKeysCheckBox.Size = new System.Drawing.Size(97, 19);
             this.shortcutKeysCheckBox.TabIndex = 3;
@@ -750,7 +750,7 @@ namespace Crypto_Notepad
             // menuIconsCheckBox
             // 
             this.menuIconsCheckBox.AutoSize = true;
-            this.menuIconsCheckBox.Location = new System.Drawing.Point(72, 22);
+            this.menuIconsCheckBox.Location = new System.Drawing.Point(160, 22);
             this.menuIconsCheckBox.Name = "menuIconsCheckBox";
             this.menuIconsCheckBox.Size = new System.Drawing.Size(88, 19);
             this.menuIconsCheckBox.TabIndex = 2;
@@ -790,7 +790,7 @@ namespace Crypto_Notepad
             // 
             this.clearClipboardTextBox.Location = new System.Drawing.Point(178, 210);
             this.clearClipboardTextBox.Name = "clearClipboardTextBox";
-            this.clearClipboardTextBox.Size = new System.Drawing.Size(140, 23);
+            this.clearClipboardTextBox.Size = new System.Drawing.Size(280, 23);
             this.clearClipboardTextBox.TabIndex = 25;
             this.settingsToolTip.SetToolTip(this.clearClipboardTextBox, "Time in seconds");
             this.clearClipboardTextBox.TextChanged += new System.EventHandler(this.ClearClipboardTextBox_TextChanged);
@@ -811,7 +811,7 @@ namespace Crypto_Notepad
             this.editorFontLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.editorFontLabel.Location = new System.Drawing.Point(178, 64);
             this.editorFontLabel.Name = "editorFontLabel";
-            this.editorFontLabel.Size = new System.Drawing.Size(140, 23);
+            this.editorFontLabel.Size = new System.Drawing.Size(280, 23);
             this.editorFontLabel.TabIndex = 23;
             this.editorFontLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.editorFontLabel.Click += new System.EventHandler(this.EditorFontLabel_Click);
@@ -832,7 +832,7 @@ namespace Crypto_Notepad
             this.editorFontColor.Cursor = System.Windows.Forms.Cursors.Hand;
             this.editorFontColor.Location = new System.Drawing.Point(178, 6);
             this.editorFontColor.Name = "editorFontColor";
-            this.editorFontColor.Size = new System.Drawing.Size(140, 23);
+            this.editorFontColor.Size = new System.Drawing.Size(280, 23);
             this.editorFontColor.TabIndex = 0;
             this.editorFontColor.Click += new System.EventHandler(this.EditorFontColor_Click);
             // 
@@ -872,7 +872,7 @@ namespace Crypto_Notepad
             "禁用"});
             this.editorInsertKeyComboBox.Location = new System.Drawing.Point(178, 181);
             this.editorInsertKeyComboBox.Name = "editorInsertKeyComboBox";
-            this.editorInsertKeyComboBox.Size = new System.Drawing.Size(140, 23);
+            this.editorInsertKeyComboBox.Size = new System.Drawing.Size(280, 23);
             this.editorInsertKeyComboBox.TabIndex = 5;
             this.editorInsertKeyComboBox.DropDownClosed += new System.EventHandler(this.EditorInsertKeyComboBox_DropDownClosed);
             // 
@@ -895,7 +895,7 @@ namespace Crypto_Notepad
             "Ctrl + 鼠标左键"});
             this.editorOpenLinksWithComboBox.Location = new System.Drawing.Point(178, 151);
             this.editorOpenLinksWithComboBox.Name = "editorOpenLinksWithComboBox";
-            this.editorOpenLinksWithComboBox.Size = new System.Drawing.Size(140, 23);
+            this.editorOpenLinksWithComboBox.Size = new System.Drawing.Size(280, 23);
             this.editorOpenLinksWithComboBox.TabIndex = 4;
             this.editorOpenLinksWithComboBox.DropDownClosed += new System.EventHandler(this.EditorOpenLinksWithComboBox_DropDownClosed);
             // 
@@ -915,7 +915,7 @@ namespace Crypto_Notepad
             this.editorBackColor.Cursor = System.Windows.Forms.Cursors.Hand;
             this.editorBackColor.Location = new System.Drawing.Point(178, 35);
             this.editorBackColor.Name = "editorBackColor";
-            this.editorBackColor.Size = new System.Drawing.Size(140, 23);
+            this.editorBackColor.Size = new System.Drawing.Size(280, 23);
             this.editorBackColor.TabIndex = 1;
             this.editorBackColor.Click += new System.EventHandler(this.EditorBackColor_Click);
             // 
@@ -924,7 +924,7 @@ namespace Crypto_Notepad
             this.editorPaddingLeftTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.editorPaddingLeftTextBox.Location = new System.Drawing.Point(178, 123);
             this.editorPaddingLeftTextBox.Name = "editorPaddingLeftTextBox";
-            this.editorPaddingLeftTextBox.Size = new System.Drawing.Size(140, 20);
+            this.editorPaddingLeftTextBox.Size = new System.Drawing.Size(280, 20);
             this.editorPaddingLeftTextBox.TabIndex = 3;
             this.editorPaddingLeftTextBox.Click += new System.EventHandler(this.EditorPaddingLeftTextBox_Click);
             this.editorPaddingLeftTextBox.TextChanged += new System.EventHandler(this.EditorPaddingLeftTextBox_TextChanged);
@@ -940,7 +940,7 @@ namespace Crypto_Notepad
             "3D边框"});
             this.editorBorderComboBox.Location = new System.Drawing.Point(178, 93);
             this.editorBorderComboBox.Name = "editorBorderComboBox";
-            this.editorBorderComboBox.Size = new System.Drawing.Size(140, 23);
+            this.editorBorderComboBox.Size = new System.Drawing.Size(280, 23);
             this.editorBorderComboBox.TabIndex = 2;
             this.editorBorderComboBox.DropDownClosed += new System.EventHandler(this.EditorBorderComboBox_DropDownClosed);
             // 
@@ -969,7 +969,7 @@ namespace Crypto_Notepad
             this.encryptionHintLabel.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.encryptionHintLabel.Location = new System.Drawing.Point(9, 101);
             this.encryptionHintLabel.Name = "encryptionHintLabel";
-            this.encryptionHintLabel.Size = new System.Drawing.Size(309, 70);
+            this.encryptionHintLabel.Size = new System.Drawing.Size(450, 70);
             this.encryptionHintLabel.TabIndex = 7;
             this.encryptionHintLabel.Text = resources.GetString("encryptionHintLabel.Text");
             this.settingsToolTip.SetToolTip(this.encryptionHintLabel, "左键点击永久隐藏此提示");
@@ -979,7 +979,7 @@ namespace Crypto_Notepad
             // 
             this.passwordIterationsTextBox.Location = new System.Drawing.Point(178, 64);
             this.passwordIterationsTextBox.Name = "passwordIterationsTextBox";
-            this.passwordIterationsTextBox.Size = new System.Drawing.Size(140, 23);
+            this.passwordIterationsTextBox.Size = new System.Drawing.Size(280, 23);
             this.passwordIterationsTextBox.TabIndex = 2;
             this.passwordIterationsTextBox.Text = "1000";
             this.passwordIterationsTextBox.TextChanged += new System.EventHandler(this.PasswordIterationsTextBox_TextChanged);
@@ -997,7 +997,7 @@ namespace Crypto_Notepad
             "SHA512"});
             this.hashAlgorithmComboBox.Location = new System.Drawing.Point(178, 6);
             this.hashAlgorithmComboBox.Name = "hashAlgorithmComboBox";
-            this.hashAlgorithmComboBox.Size = new System.Drawing.Size(140, 23);
+            this.hashAlgorithmComboBox.Size = new System.Drawing.Size(280, 23);
             this.hashAlgorithmComboBox.TabIndex = 0;
             this.hashAlgorithmComboBox.DropDownClosed += new System.EventHandler(this.HashAlgorithmComboBox_DropDownClosed);
             // 
@@ -1039,7 +1039,7 @@ namespace Crypto_Notepad
             "256"});
             this.keySizeComboBox.Location = new System.Drawing.Point(178, 35);
             this.keySizeComboBox.Name = "keySizeComboBox";
-            this.keySizeComboBox.Size = new System.Drawing.Size(140, 23);
+            this.keySizeComboBox.Size = new System.Drawing.Size(280, 23);
             this.keySizeComboBox.TabIndex = 1;
             this.keySizeComboBox.DropDownClosed += new System.EventHandler(this.KeySizeComboBox_DropDownClosed);
             // 
