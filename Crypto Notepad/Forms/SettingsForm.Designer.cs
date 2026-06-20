@@ -187,7 +187,7 @@ namespace Crypto_Notepad
             // autoLockMinutesLabel
             // 
             this.autoLockMinutesLabel.AutoSize = true;
-            this.autoLockMinutesLabel.Location = new System.Drawing.Point(184, 48);
+            this.autoLockMinutesLabel.Location = new System.Drawing.Point(193, 48);
             this.autoLockMinutesLabel.Name = "autoLockMinutesLabel";
             this.autoLockMinutesLabel.Size = new System.Drawing.Size(50, 15);
             this.autoLockMinutesLabel.TabIndex = 0;
@@ -196,7 +196,7 @@ namespace Crypto_Notepad
             // autoLockOnMinimizeCheckBox
             // 
             this.autoLockOnMinimizeCheckBox.AutoSize = true;
-            this.autoLockOnMinimizeCheckBox.Location = new System.Drawing.Point(6, 22);
+            this.autoLockOnMinimizeCheckBox.Location = new System.Drawing.Point(15, 22);
             this.autoLockOnMinimizeCheckBox.Name = "autoLockOnMinimizeCheckBox";
             this.autoLockOnMinimizeCheckBox.Size = new System.Drawing.Size(146, 19);
             this.autoLockOnMinimizeCheckBox.TabIndex = 7;
@@ -206,7 +206,7 @@ namespace Crypto_Notepad
             // 
             // lockTimeoutTextBox
             // 
-            this.lockTimeoutTextBox.Location = new System.Drawing.Point(134, 45);
+            this.lockTimeoutTextBox.Location = new System.Drawing.Point(143, 45);
             this.lockTimeoutTextBox.Name = "lockTimeoutTextBox";
             this.lockTimeoutTextBox.Placeholder = "";
             this.lockTimeoutTextBox.PlaceholderActiveForeColor = System.Drawing.Color.DarkGray;
@@ -220,7 +220,7 @@ namespace Crypto_Notepad
             // lockTimeoutLabel
             // 
             this.lockTimeoutLabel.AutoSize = true;
-            this.lockTimeoutLabel.Location = new System.Drawing.Point(3, 48);
+            this.lockTimeoutLabel.Location = new System.Drawing.Point(12, 48);
             this.lockTimeoutLabel.Name = "lockTimeoutLabel";
             this.lockTimeoutLabel.Size = new System.Drawing.Size(125, 15);
             this.lockTimeoutLabel.TabIndex = 7;
@@ -242,7 +242,7 @@ namespace Crypto_Notepad
             // integrateCheckBox
             // 
             this.integrateCheckBox.AutoSize = true;
-            this.integrateCheckBox.Location = new System.Drawing.Point(6, 22);
+            this.integrateCheckBox.Location = new System.Drawing.Point(15, 22);
             this.integrateCheckBox.Name = "integrateCheckBox";
             this.integrateCheckBox.Size = new System.Drawing.Size(226, 19);
             this.integrateCheckBox.TabIndex = 4;
@@ -253,7 +253,7 @@ namespace Crypto_Notepad
             // associateCheckBox
             // 
             this.associateCheckBox.AutoSize = true;
-            this.associateCheckBox.Location = new System.Drawing.Point(6, 47);
+            this.associateCheckBox.Location = new System.Drawing.Point(15, 47);
             this.associateCheckBox.Name = "associateCheckBox";
             this.associateCheckBox.Size = new System.Drawing.Size(219, 19);
             this.associateCheckBox.TabIndex = 5;
@@ -264,7 +264,7 @@ namespace Crypto_Notepad
             // sendToCheckBox
             // 
             this.sendToCheckBox.AutoSize = true;
-            this.sendToCheckBox.Location = new System.Drawing.Point(6, 72);
+            this.sendToCheckBox.Location = new System.Drawing.Point(15, 72);
             this.sendToCheckBox.Name = "sendToCheckBox";
             this.sendToCheckBox.Size = new System.Drawing.Size(205, 19);
             this.sendToCheckBox.TabIndex = 6;
@@ -292,7 +292,7 @@ namespace Crypto_Notepad
             // trayMenuCheckBox
             // 
             this.trayMenuCheckBox.AutoSize = true;
-            this.trayMenuCheckBox.Location = new System.Drawing.Point(6, 72);
+            this.trayMenuCheckBox.Location = new System.Drawing.Point(15, 72);
             this.trayMenuCheckBox.Name = "trayMenuCheckBox";
             this.trayMenuCheckBox.Size = new System.Drawing.Size(81, 19);
             this.trayMenuCheckBox.TabIndex = 10;
@@ -303,7 +303,7 @@ namespace Crypto_Notepad
             // openTxtUnencryptedCheckBox
             // 
             this.openTxtUnencryptedCheckBox.AutoSize = true;
-            this.openTxtUnencryptedCheckBox.Location = new System.Drawing.Point(6, 97);
+            this.openTxtUnencryptedCheckBox.Location = new System.Drawing.Point(15, 97);
             this.openTxtUnencryptedCheckBox.Name = "openTxtUnencryptedCheckBox";
             this.openTxtUnencryptedCheckBox.Size = new System.Drawing.Size(254, 19);
             this.openTxtUnencryptedCheckBox.TabIndex = 9;
@@ -314,7 +314,7 @@ namespace Crypto_Notepad
             // clearClipboardCheckBox
             // 
             this.clearClipboardCheckBox.AutoSize = true;
-            this.clearClipboardCheckBox.Location = new System.Drawing.Point(124, 72);
+            this.clearClipboardCheckBox.Location = new System.Drawing.Point(220, 72);
             this.clearClipboardCheckBox.Name = "clearClipboardCheckBox";
             this.clearClipboardCheckBox.Size = new System.Drawing.Size(168, 19);
             this.clearClipboardCheckBox.TabIndex = 4;
@@ -325,7 +325,7 @@ namespace Crypto_Notepad
             // autoCheckUpdatesCheckBox
             // 
             this.autoCheckUpdatesCheckBox.AutoSize = true;
-            this.autoCheckUpdatesCheckBox.Location = new System.Drawing.Point(124, 22);
+            this.autoCheckUpdatesCheckBox.Location = new System.Drawing.Point(220, 22);
             this.autoCheckUpdatesCheckBox.Name = "autoCheckUpdatesCheckBox";
             this.autoCheckUpdatesCheckBox.Size = new System.Drawing.Size(184, 19);
             this.autoCheckUpdatesCheckBox.TabIndex = 2;
@@ -336,7 +336,7 @@ namespace Crypto_Notepad
             // singleInstanceCheckBox
             // 
             this.singleInstanceCheckBox.AutoSize = true;
-            this.singleInstanceCheckBox.Location = new System.Drawing.Point(124, 47);
+            this.singleInstanceCheckBox.Location = new System.Drawing.Point(220, 47);
             this.singleInstanceCheckBox.Name = "singleInstanceCheckBox";
             this.singleInstanceCheckBox.Size = new System.Drawing.Size(105, 19);
             this.singleInstanceCheckBox.TabIndex = 3;
@@ -347,7 +347,7 @@ namespace Crypto_Notepad
             // closeToTrayCheckBox
             // 
             this.closeToTrayCheckBox.AutoSize = true;
-            this.closeToTrayCheckBox.Location = new System.Drawing.Point(6, 47);
+            this.closeToTrayCheckBox.Location = new System.Drawing.Point(15, 47);
             this.closeToTrayCheckBox.Name = "closeToTrayCheckBox";
             this.closeToTrayCheckBox.Size = new System.Drawing.Size(92, 19);
             this.closeToTrayCheckBox.TabIndex = 1;
@@ -358,7 +358,7 @@ namespace Crypto_Notepad
             // minimizeToTrayCheckBox
             // 
             this.minimizeToTrayCheckBox.AutoSize = true;
-            this.minimizeToTrayCheckBox.Location = new System.Drawing.Point(6, 22);
+            this.minimizeToTrayCheckBox.Location = new System.Drawing.Point(15, 22);
             this.minimizeToTrayCheckBox.Name = "minimizeToTrayCheckBox";
             this.minimizeToTrayCheckBox.Size = new System.Drawing.Size(112, 19);
             this.minimizeToTrayCheckBox.TabIndex = 0;

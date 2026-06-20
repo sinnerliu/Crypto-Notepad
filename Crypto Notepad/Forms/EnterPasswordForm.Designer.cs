@@ -86,7 +86,7 @@ namespace Crypto_Notepad
             this.fileNameLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.fileNameLabel.Location = new System.Drawing.Point(75, 25);
             this.fileNameLabel.Name = "fileNameLabel";
-            this.fileNameLabel.Size = new System.Drawing.Size(279, 15);
+            this.fileNameLabel.Size = new System.Drawing.Size(279, 23);
             this.fileNameLabel.TabIndex = 6;
             this.fileNameLabel.Text = "文件名";
             this.fileNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
