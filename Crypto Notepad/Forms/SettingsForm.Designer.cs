@@ -277,7 +277,6 @@ namespace Crypto_Notepad
             this.applicationGroupBox.Controls.Add(this.trayMenuCheckBox);
             this.applicationGroupBox.Controls.Add(this.openTxtUnencryptedCheckBox);
             this.applicationGroupBox.Controls.Add(this.clearClipboardCheckBox);
-            this.applicationGroupBox.Controls.Add(this.autoCheckUpdatesCheckBox);
             this.applicationGroupBox.Controls.Add(this.singleInstanceCheckBox);
             this.applicationGroupBox.Controls.Add(this.closeToTrayCheckBox);
             this.applicationGroupBox.Controls.Add(this.minimizeToTrayCheckBox);
@@ -314,7 +313,7 @@ namespace Crypto_Notepad
             // clearClipboardCheckBox
             // 
             this.clearClipboardCheckBox.AutoSize = true;
-            this.clearClipboardCheckBox.Location = new System.Drawing.Point(220, 72);
+            this.clearClipboardCheckBox.Location = new System.Drawing.Point(220, 47);
             this.clearClipboardCheckBox.Name = "clearClipboardCheckBox";
             this.clearClipboardCheckBox.Size = new System.Drawing.Size(168, 19);
             this.clearClipboardCheckBox.TabIndex = 4;
@@ -325,7 +324,7 @@ namespace Crypto_Notepad
             // autoCheckUpdatesCheckBox
             // 
             this.autoCheckUpdatesCheckBox.AutoSize = true;
-            this.autoCheckUpdatesCheckBox.Location = new System.Drawing.Point(220, 22);
+            this.autoCheckUpdatesCheckBox.Location = new System.Drawing.Point(220, 97);
             this.autoCheckUpdatesCheckBox.Name = "autoCheckUpdatesCheckBox";
             this.autoCheckUpdatesCheckBox.Size = new System.Drawing.Size(184, 19);
             this.autoCheckUpdatesCheckBox.TabIndex = 2;
@@ -336,7 +335,7 @@ namespace Crypto_Notepad
             // singleInstanceCheckBox
             // 
             this.singleInstanceCheckBox.AutoSize = true;
-            this.singleInstanceCheckBox.Location = new System.Drawing.Point(220, 47);
+            this.singleInstanceCheckBox.Location = new System.Drawing.Point(220, 22);
             this.singleInstanceCheckBox.Name = "singleInstanceCheckBox";
             this.singleInstanceCheckBox.Size = new System.Drawing.Size(105, 19);
             this.singleInstanceCheckBox.TabIndex = 3;

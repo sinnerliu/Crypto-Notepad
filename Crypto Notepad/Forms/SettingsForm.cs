@@ -41,7 +41,8 @@ namespace Crypto_Notepad
             editorFontLabel.Text = settings.editorFont.Name.ToString() + " " + settings.editorFont.Size.ToString();
             lockTimeoutTextBox.Text = settings.lockTimeout;
             autoLockOnMinimizeCheckBox.Checked = settings.autoLock;
-            autoCheckUpdatesCheckBox.Checked = settings.autoCheckUpdate;
+            settings.autoCheckUpdate = false;
+            autoCheckUpdatesCheckBox.Checked = false;
             mainMenuCheckBox.Checked = settings.mainMenuVisible;
             menuIconsCheckBox.Checked = settings.menuIcons;
             shortcutKeysCheckBox.Checked = settings.shortcutKeys;
