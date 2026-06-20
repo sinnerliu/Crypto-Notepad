@@ -283,7 +283,7 @@ namespace Crypto_Notepad
             this.applicationGroupBox.Dock = System.Windows.Forms.DockStyle.Top;
             this.applicationGroupBox.Location = new System.Drawing.Point(6, 6);
             this.applicationGroupBox.Name = "applicationGroupBox";
-            this.applicationGroupBox.Size = new System.Drawing.Size(312, 122);
+            this.applicationGroupBox.Size = new System.Drawing.Size(312, 102);
             this.applicationGroupBox.TabIndex = 1;
             this.applicationGroupBox.TabStop = false;
             this.applicationGroupBox.Text = "常规应用";
@@ -302,7 +302,7 @@ namespace Crypto_Notepad
             // openTxtUnencryptedCheckBox
             // 
             this.openTxtUnencryptedCheckBox.AutoSize = true;
-            this.openTxtUnencryptedCheckBox.Location = new System.Drawing.Point(15, 97);
+            this.openTxtUnencryptedCheckBox.Location = new System.Drawing.Point(220, 72);
             this.openTxtUnencryptedCheckBox.Name = "openTxtUnencryptedCheckBox";
             this.openTxtUnencryptedCheckBox.Size = new System.Drawing.Size(254, 19);
             this.openTxtUnencryptedCheckBox.TabIndex = 9;
