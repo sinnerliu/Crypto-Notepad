@@ -376,7 +376,7 @@ namespace Crypto_Notepad
                     if (!string.IsNullOrEmpty(filePath))
                     {
                         DateTime creation = File.GetLastWriteTime(filePath);
-                        statusPanelModifiedLabel.Text = "修改时间: " + creation.ToString("dd.MM.yyyy");
+                        statusPanelModifiedLabel.Text = "修改时间: " + creation.ToString("yyyy.MM.dd");
                         statusPanelModifiedLabel.ToolTipText = creation.ToString();
                     }
                 }
